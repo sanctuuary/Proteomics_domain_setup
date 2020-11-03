@@ -1,0 +1,100 @@
+MapQuant
+CompassXport -> mzXMLplot
+DeconTools -> TDimpute
+MZmine -> TDimpute
+T2D converter -> mzXMLplot
+CompassXport -> MapQuant
+MassWolf -> MapQuant
+ReAdW -> MapQuant
+mzBruker -> MapQuant
+unfinnigan -> MapQuant
+T2D converter -> MapQuant
+ReAdW -> mzXMLplot
+mzBruker -> mzXMLplot
+unfinnigan -> mzXMLplot
+MassWolf -> mzXMLplot
+MassWolf -> pyQms
+CompassXport -> TDimpute
+CompassXport -> pyQms
+CompassXport -> Comet -> muxQuant
+T2D converter -> Comet -> muxQuant
+MassWolf -> Comet -> muxQuant
+ReAdW -> Comet -> Multi-Q
+mzBruker -> Comet -> Multi-Q
+unfinnigan -> Comet -> muxQuant
+unfinnigan -> Comet -> Multi-Q
+MassWolf -> Comet -> Multi-Q
+ReAdW -> Comet -> muxQuant
+mzBruker -> Comet -> muxQuant
+MZmine -> Mascot Server -> MassChroQ
+DeconTools -> Mascot Server -> MassChroQ
+CompassXport -> Comet -> Multi-Q
+T2D converter -> Comet -> Multi-Q
+MZmine -> Mascot Server -> TDimpute
+clc_unmapped_reads -> restrictsequencelist -> MethTargetedNGS
+clc_find_variations -> restrictsequencelist -> MethTargetedNGS
+clc_extract_consensus -> restrictsequencelist -> MethTargetedNGS
+CompassXport -> mzXML2Search -> MapQuant
+DeconTools -> TDimpute -> metaseqR
+CompassXport -> xcms -> DExSI: Targeted GC-MS Metabolomics
+T2D converter -> xcms -> DExSI: Targeted GC-MS Metabolomics
+DeconTools -> Mascot Server -> TDimpute
+SIM -> setuppromoter -> MethTargetedNGS
+MassWolf -> xcms -> DExSI: Targeted GC-MS Metabolomics
+mzBruker -> xcms -> DExSI: Targeted GC-MS Metabolomics
+unfinnigan -> xcms -> DExSI: Targeted GC-MS Metabolomics
+MZmine -> Mascot Server -> ICPL_ESIQuant
+DeconTools -> converter_genbank_to_fasta -> MethTargetedNGS
+SIMAT -> setuppromoter -> MethTargetedNGS
+MZmine -> converter_genbank_to_fasta -> MethTargetedNGS
+SIM -> converter_genbank_to_fasta -> MethTargetedNGS
+SIMAT -> converter_genbank_to_fasta -> MethTargetedNGS
+CompassXport -> converter_genbank_to_fasta -> MethTargetedNGS
+RawTools -> converter_genbank_to_fasta -> MethTargetedNGS
+OBI-Warp -> converter_genbank_to_fasta -> MethTargetedNGS
+msConvert -> converter_genbank_to_fasta -> MethTargetedNGS
+MassHunter File Reader -> converter_genbank_to_fasta -> MethTargetedNGS
+PEAKS De Novo -> converter_genbank_to_fasta -> MethTargetedNGS
+Q4SRM -> converter_genbank_to_fasta -> MethTargetedNGS
+MZmine -> genbank_to_gene -> MethTargetedNGS
+DeconTools -> genbank_to_gene -> MethTargetedNGS
+SIMAT -> genbank_to_gene -> MethTargetedNGS
+SIM -> genbank_to_gene -> MethTargetedNGS
+CompassXport -> genbank_to_gene -> MethTargetedNGS
+OBI-Warp -> genbank_to_gene -> MethTargetedNGS
+msConvert -> genbank_to_gene -> MethTargetedNGS
+RawTools -> genbank_to_gene -> MethTargetedNGS
+MassHunter File Reader -> genbank_to_gene -> MethTargetedNGS
+Q4SRM -> genbank_to_gene -> MethTargetedNGS
+PEAKS De Novo -> genbank_to_gene -> MethTargetedNGS
+SIMAT -> extractcentralregions -> genomation
+MZmine -> extractcentralregions -> genomation
+SIM -> extractcentralregions -> genomation
+DeconTools -> extractcentralregions -> genomation
+MZmine -> peak2bed -> genomation
+DeconTools -> peak2bed -> genomation
+SIM -> peak2bed -> genomation
+SIMAT -> peak2bed -> genomation
+CompassXport -> peak2bed -> genomation
+OBI-Warp -> peak2bed -> genomation
+RawTools -> peak2bed -> genomation
+MassHunter File Reader -> peak2bed -> genomation
+msConvert -> peak2bed -> genomation
+Q4SRM -> peak2bed -> genomation
+PEAKS De Novo -> peak2bed -> genomation
+CompassXport -> extractcentralregions -> genomation
+OBI-Warp -> extractcentralregions -> genomation
+msConvert -> extractcentralregions -> genomation
+RawTools -> extractcentralregions -> genomation
+MassHunter File Reader -> extractcentralregions -> genomation
+Q4SRM -> extractcentralregions -> genomation
+PEAKS De Novo -> extractcentralregions -> genomation
+ReAdW -> xcms -> DExSI: Targeted GC-MS Metabolomics
+MZmine -> TDimpute -> ComplexHeatmap
+CompassXport -> TDimpute -> ComplexHeatmap
+DeconTools -> TDimpute -> ComplexHeatmap
+CompassXport -> mzBruker -> MapQuant
+T2D converter -> mzXML2Search -> MapQuant
+ReAdW -> mzXML2Search -> MapQuant
+CompassXport -> mz2mgf -> MapQuant
+mzBruker -> mzXML2Search -> MapQuant

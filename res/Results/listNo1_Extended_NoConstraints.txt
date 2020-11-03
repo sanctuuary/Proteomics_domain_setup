@@ -1,0 +1,100 @@
+DeconTools -> Mascot Server -> rt
+PEAKS De Novo -> PeptideProphet -> rt
+MZmine -> Mascot Server -> rt
+CompassXport -> Comet -> rt
+T2D converter -> Comet -> rt
+MassWolf -> Comet -> rt
+ReAdW -> Comet -> rt
+mzBruker -> Comet -> rt
+unfinnigan -> Comet -> rt
+raw2mzDB -> MZmine -> Mascot Server -> rt
+DeconTools -> raw2mzDB -> Mascot Server -> rt
+MZmine -> raw2mzDB -> Mascot Server -> rt
+CompassXport -> CompassXport -> Comet -> rt
+MassWolf -> CompassXport -> Comet -> rt
+unfinnigan -> CompassXport -> Comet -> rt
+mzBruker -> CompassXport -> Comet -> rt
+T2D converter -> CompassXport -> Comet -> rt
+ReAdW -> CompassXport -> Comet -> rt
+MassWolf -> MassWolf -> Comet -> rt
+CompassXport -> MassWolf -> Comet -> rt
+mzBruker -> MassWolf -> Comet -> rt
+T2D converter -> MassWolf -> Comet -> rt
+unfinnigan -> MassWolf -> Comet -> rt
+ReAdW -> MassWolf -> Comet -> rt
+MassWolf -> mzBruker -> Comet -> rt
+CompassXport -> T2D converter -> Comet -> rt
+MassWolf -> T2D converter -> Comet -> rt
+T2D converter -> T2D converter -> Comet -> rt
+mzBruker -> T2D converter -> Comet -> rt
+unfinnigan -> T2D converter -> Comet -> rt
+ReAdW -> T2D converter -> Comet -> rt
+CompassXport -> mzBruker -> Comet -> rt
+T2D converter -> mzBruker -> Comet -> rt
+mzBruker -> mzBruker -> Comet -> rt
+unfinnigan -> mzBruker -> Comet -> rt
+ReAdW -> mzBruker -> Comet -> rt
+unfinnigan -> recal2 -> Comet -> rt
+mzBruker -> recal2 -> Comet -> rt
+T2D converter -> recal2 -> Comet -> rt
+CompassXport -> recal2 -> Comet -> rt
+MassWolf -> recal2 -> Comet -> rt
+ReAdW -> recal2 -> Comet -> rt
+PEAKS De Novo -> ProteinProphet -> idconvert -> rt
+CompassXport -> Comet -> PTMProphet -> rt
+MassWolf -> Comet -> PTMProphet -> rt
+T2D converter -> Comet -> PTMProphet -> rt
+mzBruker -> Comet -> PTMProphet -> rt
+unfinnigan -> Comet -> PTMProphet -> rt
+ReAdW -> Comet -> PTMProphet -> rt
+PEAKS De Novo -> PeptideProphet -> PTMProphet -> rt
+DeconTools -> MassWolf -> Mascot Server -> rt
+MZmine -> Mascot Server -> idconvert -> rt
+DeconTools -> Mascot Server -> idconvert -> rt
+PEAKS De Novo -> PeptideProphet -> idconvert -> rt
+CompassXport -> Comet -> idconvert -> rt
+MassWolf -> Comet -> idconvert -> rt
+T2D converter -> Comet -> idconvert -> rt
+mzBruker -> Comet -> idconvert -> rt
+unfinnigan -> Comet -> idconvert -> rt
+ReAdW -> Comet -> idconvert -> rt
+MZmine -> ProFound -> PeptideProphet -> rt
+PEAKS De Novo -> ProteinProphet -> PeptideProphet -> rt
+PEAKS De Novo -> PeptideProphet -> PeptideProphet -> rt
+MassWolf -> Comet -> PeptideProphet -> rt
+DeconTools -> ProFound -> PeptideProphet -> rt
+MZmine -> MS-Fit -> PeptideProphet -> rt
+DeconTools -> MS-Fit -> PeptideProphet -> rt
+CompassXport -> PEAKS De Novo -> PeptideProphet -> rt
+MassWolf -> PEAKS De Novo -> PeptideProphet -> rt
+RawTools -> PEAKS De Novo -> PeptideProphet -> rt
+MassHunter File Reader -> PEAKS De Novo -> PeptideProphet -> rt
+ReAdW -> PEAKS De Novo -> PeptideProphet -> rt
+T2D converter -> PEAKS De Novo -> PeptideProphet -> rt
+mzBruker -> PEAKS De Novo -> PeptideProphet -> rt
+unfinnigan -> PEAKS De Novo -> PeptideProphet -> rt
+CompassXport -> Comet -> PeptideProphet -> rt
+T2D converter -> Comet -> PeptideProphet -> rt
+mzBruker -> Comet -> PeptideProphet -> rt
+unfinnigan -> Comet -> PeptideProphet -> rt
+ReAdW -> Comet -> PeptideProphet -> rt
+MZmine -> mzBruker -> Mascot Server -> rt
+RawTools -> DTA to MGF File Converter -> MassWiz -> rt
+PEAKS De Novo -> MZmine -> Mascot Server -> rt
+MassWolf -> mzXML2Search -> MassWiz -> rt
+CompassXport -> mzXML2Search -> MassWiz -> rt
+T2D converter -> mzXML2Search -> MassWiz -> rt
+mzBruker -> mzXML2Search -> MassWiz -> rt
+unfinnigan -> mzXML2Search -> MassWiz -> rt
+ReAdW -> mzXML2Search -> MassWiz -> rt
+MassHunter File Reader -> DTA to MGF File Converter -> MassWiz -> rt
+CompassXport -> DTA to MGF File Converter -> MassWiz -> rt
+CompassXport -> mz2mgf -> MassWiz -> rt
+mzBruker -> DIA-Umpire -> MassWiz -> rt
+T2D converter -> DIA-Umpire -> MassWiz -> rt
+unfinnigan -> DIA-Umpire -> MassWiz -> rt
+CompassXport -> DIA-Umpire -> MassWiz -> rt
+MassWolf -> DIA-Umpire -> MassWiz -> rt
+ReAdW -> DIA-Umpire -> MassWiz -> rt
+PEAKS De Novo -> DeconTools -> Mascot Server -> rt
+MZmine -> ESIprot -> Mascot Server -> rt

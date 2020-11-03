@@ -1,0 +1,22 @@
+{
+  "inputs": [
+        {
+          "data_0006": [
+            "data_0943"
+          ],
+          "format_1915": [
+            "format_3712"
+          ]
+        }
+      ],
+  "outputs": [
+        {
+          "data_0006": [
+            "data_2016"
+          ],
+          "format_1915": [
+            "format_1915"
+          ]
+        }
+      ]
+}

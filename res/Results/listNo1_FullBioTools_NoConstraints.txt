@@ -1,0 +1,100 @@
+MZmine -> Mascot Server -> rt
+DeconTools -> Mascot Server -> rt
+mzBruker -> Comet -> rt
+CompassXport -> Comet -> rt
+unfinnigan -> Comet -> rt
+MassWolf -> Comet -> rt
+T2D converter -> Comet -> rt
+ReAdW -> Comet -> rt
+PEAKS De Novo -> PeptideProphet -> rt
+MZmine -> Mascot Server -> idconvert -> rt
+DeconTools -> unfinnigan -> Mascot Server -> rt
+mzBruker -> CompassXport -> Comet -> rt
+T2D converter -> MZmine -> Mascot Server -> rt
+unfinnigan -> CompassXport -> Comet -> rt
+MassWolf -> mzBruker -> Comet -> rt
+mzBruker -> mzBruker -> Comet -> rt
+unfinnigan -> mzBruker -> Comet -> rt
+CompassXport -> mzBruker -> Comet -> rt
+CompassXport -> CompassXport -> Comet -> rt
+MassWolf -> CompassXport -> Comet -> rt
+CompassXport -> MassWolf -> Comet -> rt
+mzBruker -> MassWolf -> Comet -> rt
+unfinnigan -> MassWolf -> Comet -> rt
+MassWolf -> MassWolf -> Comet -> rt
+T2D converter -> CompassXport -> Comet -> rt
+T2D converter -> mzBruker -> Comet -> rt
+T2D converter -> MassWolf -> Comet -> rt
+MassWolf -> T2D converter -> Comet -> rt
+mzBruker -> T2D converter -> Comet -> rt
+unfinnigan -> T2D converter -> Comet -> rt
+CompassXport -> T2D converter -> Comet -> rt
+T2D converter -> T2D converter -> Comet -> rt
+ReAdW -> mzBruker -> Comet -> rt
+ReAdW -> CompassXport -> Comet -> rt
+ReAdW -> MassWolf -> Comet -> rt
+ReAdW -> T2D converter -> Comet -> rt
+unfinnigan -> recal2 -> Comet -> rt
+mzBruker -> recal2 -> Comet -> rt
+CompassXport -> recal2 -> Comet -> rt
+MassWolf -> recal2 -> Comet -> rt
+T2D converter -> recal2 -> Comet -> rt
+ReAdW -> recal2 -> Comet -> rt
+CompassXport -> MS-Spectre -> Mascot Server -> rt
+MassWolf -> MS-Spectre -> Mascot Server -> rt
+DeconTools -> CompassXport -> Mascot Server -> rt
+PEAKS De Novo -> ProteinProphet -> PeptideProphet -> rt
+MZmine -> ESIprot -> Mascot Server -> rt
+unfinnigan -> Comet -> PTMProphet -> rt
+unfinnigan -> Comet -> PeptideProphet -> rt
+mzBruker -> Comet -> PTMProphet -> rt
+CompassXport -> Comet -> PTMProphet -> rt
+MassWolf -> Comet -> PTMProphet -> rt
+T2D converter -> Comet -> PTMProphet -> rt
+ReAdW -> Comet -> PTMProphet -> rt
+ReAdW -> Comet -> idconvert -> rt
+mzBruker -> Comet -> idconvert -> rt
+unfinnigan -> Comet -> idconvert -> rt
+CompassXport -> Comet -> idconvert -> rt
+MassWolf -> Comet -> idconvert -> rt
+T2D converter -> Comet -> idconvert -> rt
+ReAdW -> Comet -> PeptideProphet -> rt
+mzBruker -> Comet -> PeptideProphet -> rt
+CompassXport -> Comet -> PeptideProphet -> rt
+MassWolf -> Comet -> PeptideProphet -> rt
+T2D converter -> Comet -> PeptideProphet -> rt
+PEAKS De Novo -> PeptideProphet -> idconvert -> rt
+PEAKS De Novo -> ProteinProphet -> idconvert -> rt
+PEAKS De Novo -> PeptideProphet -> PTMProphet -> rt
+PEAKS De Novo -> PeptideProphet -> PeptideProphet -> rt
+CompassXport -> PEAKS De Novo -> PeptideProphet -> rt
+ReAdW -> PEAKS De Novo -> PeptideProphet -> rt
+mzBruker -> PEAKS De Novo -> PeptideProphet -> rt
+unfinnigan -> PEAKS De Novo -> PeptideProphet -> rt
+MassWolf -> PEAKS De Novo -> PeptideProphet -> rt
+T2D converter -> PEAKS De Novo -> PeptideProphet -> rt
+PEAKS De Novo -> MZmine -> Mascot Server -> rt
+DeconTools -> ProFound -> PeptideProphet -> rt
+MZmine -> CompassXport -> Mascot Server -> rt
+DeconTools -> Mascot Server -> idconvert -> rt
+MZmine -> ReAdW -> Mascot Server -> rt
+MZmine -> ProFound -> PeptideProphet -> rt
+MZmine -> MS-Fit -> PeptideProphet -> rt
+DeconTools -> MS-Fit -> PeptideProphet -> rt
+MZmine -> PEAKS De Novo -> Mascot Server -> rt
+ReAdW -> MZmine -> Mascot Server -> rt
+MassHunter File Reader -> PEAKS De Novo -> PeptideProphet -> rt
+RawTools -> PEAKS De Novo -> PeptideProphet -> rt
+CompassXport -> MZmine -> Mascot Server -> rt
+DeconTools -> PEAKS De Novo -> Mascot Server -> rt
+mzBruker -> MZmine -> Mascot Server -> rt
+MZmine -> Mascot Server -> xml2tsv -> rt
+ReAdW -> Comet -> xml2tsv -> rt
+mzBruker -> Comet -> xml2tsv -> rt
+unfinnigan -> Comet -> xml2tsv -> rt
+CompassXport -> Comet -> xml2tsv -> rt
+MassWolf -> Comet -> xml2tsv -> rt
+T2D converter -> Comet -> xml2tsv -> rt
+PEAKS De Novo -> PeptideProphet -> xml2tsv -> rt
+unfinnigan -> ICPL_ESIQuant -> Mascot Server -> rt
+unfinnigan -> mzXML2Search -> MassWiz -> rt
