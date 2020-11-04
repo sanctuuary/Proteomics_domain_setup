@@ -12,13 +12,13 @@ public class ConfiguringDomain {
 
 	
 	public static void setupDomain() throws IOException {
-		getLimitedToolSet(Benchmarking.TOOLS_DIR + "toolList.json");
-//		setupToolSetFromExistingDomain("proteomics", "Extended");
-//		setupToolSetFromExistingDomain("", "FullBioTools");
+//		getLimitedToolSet(Benchmarking.TOOLS_DIR + "toolList.json");
+		setupToolSetFromExistingDomain("proteomics", "Extended");
+		setupToolSetFromExistingDomain("", "FullBioTools");
 	}
 	
 	private static void getLimitedToolSet(String listFilePath) throws IOException {
-		String toolType = "Limited";
+		String toolType = "Original";
 		
 		// Fetch the Limited (predefined) set of tool
 		JSONArray bioToolsRAW = BioToolsAPI.readListOfTools(listFilePath);

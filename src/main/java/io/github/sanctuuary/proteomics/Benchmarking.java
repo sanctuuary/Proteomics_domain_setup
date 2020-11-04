@@ -40,7 +40,7 @@ public class Benchmarking {
 	public static void main(String[] args) throws IOException {
 
 		List<String> useCasesTemplate = Arrays.asList("No1", "No2", "No3", "No4");
-		List<String> toolAnnotationsTemplate = Arrays.asList("Limited", "Extended", "FullBioTools");
+		List<String> toolAnnotationsTemplate = Arrays.asList("Original", "Extended", "FullBioTools");
 		List<String> constraintsTemplate = Arrays.asList("WithConstraints", "NoConstraints");
 
 		List<String> useCases = getElements(useCasesTemplate, 2);
@@ -106,6 +106,8 @@ public class Benchmarking {
 
 			APERunConfig runCongif = new APERunConfig(runConfigJson, apeFramework.getDomainSetup());
 			runCongif.setConstraintsJSON(getConstraint(useCase, constraints));
+			runCongif.setDebugMode(false);
+			runCongif.setSolutionLength(1, 10);
 			solutions = apeFramework.runSynthesis(runCongif);
 
 		} catch (APEConfigException e) {

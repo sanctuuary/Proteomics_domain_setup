@@ -1,17 +1,17 @@
 MapQuant
 unfinnigan -> mzXMLplot
-ReAdW -> mzXMLplot
-CompassXport -> mzXMLplot
-mzBruker -> mzXMLplot
-MassWolf -> mzXMLplot
-MassWolf -> MapQuant
 T2D converter -> mzXMLplot
+MassWolf -> mzXMLplot
+ReAdW -> mzXMLplot
 CompassXport -> MapQuant
-unfinnigan -> MapQuant
+CompassXport -> mzXMLplot
+MassWolf -> MapQuant
+mzBruker -> mzXMLplot
 T2D converter -> MapQuant
-mzBruker -> MapQuant
 ReAdW -> MapQuant
-T2D converter -> Comet -> muxQuant
+mzBruker -> MapQuant
+unfinnigan -> MapQuant
+mzBruker -> Comet -> muxQuant
 MZmine -> Mascot Server -> PEAKS Q
 DeconTools -> Mascot Server -> PEAKS Q
 PEAKS De Novo -> PeptideProphet -> Libra
@@ -34,14 +34,14 @@ MZmine -> Mascot Server -> IsobariQ
 MZmine -> Mascot Server -> ICPL_ESIQuant
 DeconTools -> Mascot Server -> ICPL_ESIQuant
 MassWolf -> Comet -> muxQuant
-mzBruker -> Comet -> muxQuant
 unfinnigan -> Comet -> muxQuant
+T2D converter -> Comet -> muxQuant
 CompassXport -> Comet -> muxQuant
 ReAdW -> Comet -> muxQuant
 CompassXport -> CompassXport -> mzXMLplot
 MassWolf -> CompassXport -> mzXMLplot
-CompassXport -> T2D converter -> mzXMLplot
 CompassXport -> mzBruker -> mzXMLplot
+CompassXport -> T2D converter -> mzXMLplot
 MassWolf -> T2D converter -> mzXMLplot
 unfinnigan -> T2D converter -> mzXMLplot
 T2D converter -> T2D converter -> mzXMLplot

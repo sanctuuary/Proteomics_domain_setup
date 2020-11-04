@@ -125,6 +125,7 @@ public class BioToolsAPI {
 	 */
 	public static JSONObject convertBioTools2ApeAnnotation(JSONArray bioToolsAnnotation) throws JSONException {
 		Set<String> notAcceptedTools = new HashSet<String>();
+		Set<String> toolsMissingDimension = new HashSet<String>();
 		int notAcceptedOperations = 0;
 		
 		JSONArray apeToolsAnnotations = new JSONArray();
@@ -165,6 +166,9 @@ public class BioToolsAPI {
 						apeInputTypes.put(bioType.getString("uri"));
 					}
 					if(apeInputTypes.length() == 0) {
+						notAcceptedTools.add(bioJsonTool.getString("biotoolsID"));
+						toolsMissingDimension.add(bioJsonTool.getString("biotoolsID"));
+						notAcceptedOperations++;
 						continue functionloop;
 					}
 					apeInput.put("data_0006", apeInputTypes);
@@ -173,6 +177,9 @@ public class BioToolsAPI {
 						apeInputFormats.put(bioType.getString("uri"));
 					}
 					if(apeInputFormats.length() == 0) {
+						notAcceptedTools.add(bioJsonTool.getString("biotoolsID"));
+						toolsMissingDimension.add(bioJsonTool.getString("biotoolsID"));
+						notAcceptedOperations++;
 						continue functionloop;
 					}
 					apeInput.put("format_1915", apeInputFormats);
@@ -196,6 +203,9 @@ public class BioToolsAPI {
 						apeOutputTypes.put(bioType.getString("uri"));
 					}
 					if(apeOutputTypes.length() == 0) {
+						notAcceptedTools.add(bioJsonTool.getString("biotoolsID"));
+						toolsMissingDimension.add(bioJsonTool.getString("biotoolsID"));
+						notAcceptedOperations++;
 						continue functionloop;
 					}
 					apeOutput.put("data_0006", apeOutputTypes);
@@ -204,6 +214,9 @@ public class BioToolsAPI {
 						apeOutputFormats.put(bioType.getString("uri"));
 					}
 					if(apeOutputFormats.length() == 0) {
+						notAcceptedTools.add(bioJsonTool.getString("biotoolsID"));
+						toolsMissingDimension.add(bioJsonTool.getString("biotoolsID"));
+						notAcceptedOperations++;
 						continue functionloop;
 					}
 					apeOutput.put("format_1915", apeOutputFormats);
@@ -223,6 +236,7 @@ public class BioToolsAPI {
 		}
 		System.out.println("Provided bio.tools: " + bioToolsAnnotation.length());
 		System.out.println("Errored bio.tools: " + notAcceptedTools.size());
+		System.out.println("bio.tools missing a data dimension: " + notAcceptedTools.size());
 		System.out.println("Errored bio.tools operations: " + notAcceptedOperations);
 		System.out.println("Created APE annotations: " + apeToolsAnnotations.length());
 		

@@ -1,100 +1,100 @@
 CompassXport -> Comet -> rt
 CompassXport -> Comet -> xml2tsv -> rt
 CompassXport -> CompassXport -> Comet -> rt
-CompassXport -> Comet -> idconvert -> rt
 CompassXport -> Comet -> PeptideProphet -> rt
 CompassXport -> Comet -> PTMProphet -> rt
-CompassXport -> Comet -> idconvert -> idconvert -> rt
-CompassXport -> CompassXport -> CompassXport -> Comet -> rt
+CompassXport -> Comet -> idconvert -> rt
+CompassXport -> CompassXport -> Comet -> idconvert -> rt
+CompassXport -> Comet -> idconvert -> xml2tsv -> rt
 CompassXport -> Comet -> PTMProphet -> PTMProphet -> rt
 CompassXport -> CompassXport -> Comet -> PTMProphet -> rt
 CompassXport -> Comet -> idconvert -> PTMProphet -> rt
 CompassXport -> Comet -> PeptideProphet -> PTMProphet -> rt
-CompassXport -> CompassXport -> Comet -> idconvert -> rt
-CompassXport -> Comet -> idconvert -> xml2tsv -> rt
-CompassXport -> Comet -> PTMProphet -> idconvert -> rt
-CompassXport -> Comet -> PeptideProphet -> idconvert -> rt
 CompassXport -> Comet -> ProteinProphet -> idconvert -> rt
+CompassXport -> CompassXport -> CompassXport -> Comet -> rt
 CompassXport -> CompassXport -> Comet -> PeptideProphet -> rt
-CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> rt
+CompassXport -> Comet -> PTMProphet -> idconvert -> rt
+CompassXport -> Comet -> idconvert -> idconvert -> rt
+CompassXport -> Comet -> PeptideProphet -> idconvert -> rt
 CompassXport -> Comet -> PeptideProphet -> PeptideProphet -> rt
+CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> rt
 CompassXport -> Comet -> idconvert -> PeptideProphet -> rt
 CompassXport -> Comet -> PTMProphet -> PeptideProphet -> rt
-CompassXport -> CompassXport -> Comet -> xml2tsv -> rt
-CompassXport -> Comet -> PTMProphet -> xml2tsv -> rt
 CompassXport -> Comet -> PeptideProphet -> xml2tsv -> rt
-CompassXport -> Comet -> ProteinProphet -> idconvert -> idconvert -> rt
-CompassXport -> CompassXport -> CompassXport -> Comet -> PTMProphet -> rt
-CompassXport -> Comet -> idconvert -> PTMProphet -> PTMProphet -> rt
-CompassXport -> Comet -> PTMProphet -> PTMProphet -> PTMProphet -> rt
-CompassXport -> CompassXport -> Comet -> PTMProphet -> PTMProphet -> rt
-CompassXport -> Comet -> PeptideProphet -> PTMProphet -> PTMProphet -> rt
-CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> PTMProphet -> rt
-CompassXport -> Comet -> PTMProphet -> idconvert -> PTMProphet -> rt
-CompassXport -> CompassXport -> Comet -> idconvert -> PTMProphet -> rt
-CompassXport -> Comet -> idconvert -> idconvert -> PTMProphet -> rt
-CompassXport -> Comet -> PeptideProphet -> idconvert -> PTMProphet -> rt
-CompassXport -> Comet -> ProteinProphet -> idconvert -> PTMProphet -> rt
-CompassXport -> Comet -> PeptideProphet -> PeptideProphet -> PTMProphet -> rt
-CompassXport -> Comet -> idconvert -> PeptideProphet -> PTMProphet -> rt
-CompassXport -> Comet -> PTMProphet -> PeptideProphet -> PTMProphet -> rt
-CompassXport -> CompassXport -> Comet -> PeptideProphet -> PTMProphet -> rt
+CompassXport -> Comet -> PTMProphet -> xml2tsv -> rt
+CompassXport -> CompassXport -> Comet -> xml2tsv -> rt
 CompassXport -> Comet -> idconvert -> idconvert -> xml2tsv -> rt
 CompassXport -> CompassXport -> CompassXport -> CompassXport -> Comet -> rt
 CompassXport -> CompassXport -> CompassXport -> Comet -> idconvert -> rt
+CompassXport -> CompassXport -> Comet -> PTMProphet -> PTMProphet -> rt
+CompassXport -> Comet -> PTMProphet -> PTMProphet -> PTMProphet -> rt
+CompassXport -> CompassXport -> Comet -> ProteinProphet -> idconvert -> rt
+CompassXport -> Comet -> PeptideProphet -> PTMProphet -> PTMProphet -> rt
+CompassXport -> Comet -> idconvert -> PTMProphet -> PTMProphet -> rt
+CompassXport -> CompassXport -> CompassXport -> Comet -> PTMProphet -> rt
+CompassXport -> CompassXport -> Comet -> idconvert -> PTMProphet -> rt
+CompassXport -> Comet -> PTMProphet -> idconvert -> PTMProphet -> rt
+CompassXport -> Comet -> idconvert -> idconvert -> PTMProphet -> rt
+CompassXport -> Comet -> PeptideProphet -> idconvert -> PTMProphet -> rt
+CompassXport -> Comet -> ProteinProphet -> idconvert -> PTMProphet -> rt
+CompassXport -> CompassXport -> Comet -> PeptideProphet -> PTMProphet -> rt
+CompassXport -> Comet -> PeptideProphet -> PeptideProphet -> PTMProphet -> rt
+CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> PTMProphet -> rt
+CompassXport -> Comet -> idconvert -> PeptideProphet -> PTMProphet -> rt
+CompassXport -> Comet -> PTMProphet -> PeptideProphet -> PTMProphet -> rt
+CompassXport -> CompassXport -> Comet -> PTMProphet -> xml2tsv -> rt
+CompassXport -> CompassXport -> Comet -> idconvert -> xml2tsv -> rt
+CompassXport -> CompassXport -> CompassXport -> Comet -> PeptideProphet -> rt
+CompassXport -> Comet -> PTMProphet -> idconvert -> idconvert -> rt
 CompassXport -> Comet -> PTMProphet -> PTMProphet -> idconvert -> rt
 CompassXport -> CompassXport -> Comet -> PTMProphet -> idconvert -> rt
 CompassXport -> Comet -> idconvert -> PTMProphet -> idconvert -> rt
 CompassXport -> Comet -> PeptideProphet -> PTMProphet -> idconvert -> rt
-CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> idconvert -> rt
-CompassXport -> Comet -> PTMProphet -> idconvert -> idconvert -> rt
 CompassXport -> CompassXport -> Comet -> idconvert -> idconvert -> rt
+CompassXport -> Comet -> ProteinProphet -> idconvert -> idconvert -> rt
 CompassXport -> Comet -> idconvert -> idconvert -> idconvert -> rt
 CompassXport -> Comet -> PeptideProphet -> idconvert -> idconvert -> rt
+CompassXport -> CompassXport -> Comet -> PeptideProphet -> idconvert -> rt
 CompassXport -> Comet -> PeptideProphet -> PeptideProphet -> idconvert -> rt
+CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> idconvert -> rt
 CompassXport -> Comet -> idconvert -> PeptideProphet -> idconvert -> rt
 CompassXport -> Comet -> PTMProphet -> PeptideProphet -> idconvert -> rt
-CompassXport -> CompassXport -> Comet -> PeptideProphet -> idconvert -> rt
-CompassXport -> CompassXport -> CompassXport -> Comet -> PeptideProphet -> rt
+CompassXport -> Comet -> idconvert -> ProteinProphet -> idconvert -> rt
 CompassXport -> Comet -> PeptideProphet -> ProteinProphet -> idconvert -> rt
 CompassXport -> Comet -> ProteinProphet -> ProteinProphet -> idconvert -> rt
-CompassXport -> Comet -> idconvert -> ProteinProphet -> idconvert -> rt
 CompassXport -> Comet -> PTMProphet -> ProteinProphet -> idconvert -> rt
-CompassXport -> CompassXport -> Comet -> ProteinProphet -> idconvert -> rt
+CompassXport -> CompassXport -> Comet -> PeptideProphet -> xml2tsv -> rt
+CompassXport -> Comet -> PeptideProphet -> ProteinProphet -> PeptideProphet -> rt
+CompassXport -> CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> rt
 CompassXport -> Comet -> PeptideProphet -> PeptideProphet -> PeptideProphet -> rt
 CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> PeptideProphet -> rt
-CompassXport -> Comet -> idconvert -> PeptideProphet -> PeptideProphet -> rt
 CompassXport -> CompassXport -> Comet -> PeptideProphet -> PeptideProphet -> rt
 CompassXport -> Comet -> PTMProphet -> PeptideProphet -> PeptideProphet -> rt
-CompassXport -> Comet -> PeptideProphet -> ProteinProphet -> PeptideProphet -> rt
-CompassXport -> Comet -> ProteinProphet -> ProteinProphet -> PeptideProphet -> rt
+CompassXport -> Comet -> idconvert -> PeptideProphet -> PeptideProphet -> rt
 CompassXport -> Comet -> idconvert -> ProteinProphet -> PeptideProphet -> rt
+CompassXport -> Comet -> ProteinProphet -> ProteinProphet -> PeptideProphet -> rt
 CompassXport -> Comet -> PTMProphet -> ProteinProphet -> PeptideProphet -> rt
-CompassXport -> CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> rt
-CompassXport -> Comet -> idconvert -> idconvert -> PeptideProphet -> rt
-CompassXport -> Comet -> PTMProphet -> PTMProphet -> PeptideProphet -> rt
 CompassXport -> CompassXport -> Comet -> PTMProphet -> PeptideProphet -> rt
+CompassXport -> Comet -> PTMProphet -> PTMProphet -> PeptideProphet -> rt
 CompassXport -> Comet -> idconvert -> PTMProphet -> PeptideProphet -> rt
 CompassXport -> Comet -> PeptideProphet -> PTMProphet -> PeptideProphet -> rt
-CompassXport -> Comet -> ProteinProphet -> idconvert -> PeptideProphet -> rt
-CompassXport -> Comet -> PTMProphet -> idconvert -> PeptideProphet -> rt
 CompassXport -> CompassXport -> Comet -> idconvert -> PeptideProphet -> rt
+CompassXport -> Comet -> PTMProphet -> idconvert -> PeptideProphet -> rt
+CompassXport -> Comet -> ProteinProphet -> idconvert -> PeptideProphet -> rt
+CompassXport -> Comet -> idconvert -> idconvert -> PeptideProphet -> rt
 CompassXport -> Comet -> PeptideProphet -> idconvert -> PeptideProphet -> rt
-CompassXport -> Comet -> PTMProphet -> idconvert -> xml2tsv -> rt
-CompassXport -> Comet -> PTMProphet -> PTMProphet -> xml2tsv -> rt
-CompassXport -> CompassXport -> Comet -> PTMProphet -> xml2tsv -> rt
-CompassXport -> Comet -> idconvert -> PTMProphet -> xml2tsv -> rt
-CompassXport -> Comet -> PeptideProphet -> PTMProphet -> xml2tsv -> rt
 CompassXport -> CompassXport -> CompassXport -> Comet -> xml2tsv -> rt
-CompassXport -> Comet -> ProteinProphet -> idconvert -> xml2tsv -> rt
-CompassXport -> CompassXport -> Comet -> idconvert -> xml2tsv -> rt
-CompassXport -> Comet -> PeptideProphet -> idconvert -> xml2tsv -> rt
-CompassXport -> Comet -> PTMProphet -> PeptideProphet -> xml2tsv -> rt
-CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> xml2tsv -> rt
+CompassXport -> Comet -> PTMProphet -> PTMProphet -> xml2tsv -> rt
+CompassXport -> Comet -> PeptideProphet -> PTMProphet -> xml2tsv -> rt
+CompassXport -> Comet -> idconvert -> PTMProphet -> xml2tsv -> rt
 CompassXport -> Comet -> PeptideProphet -> PeptideProphet -> xml2tsv -> rt
+CompassXport -> Comet -> PTMProphet -> idconvert -> xml2tsv -> rt
+CompassXport -> Comet -> ProteinProphet -> idconvert -> xml2tsv -> rt
+CompassXport -> Comet -> PeptideProphet -> idconvert -> xml2tsv -> rt
+CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> xml2tsv -> rt
 CompassXport -> Comet -> idconvert -> PeptideProphet -> xml2tsv -> rt
-CompassXport -> CompassXport -> Comet -> PeptideProphet -> xml2tsv -> rt
+CompassXport -> Comet -> PTMProphet -> PeptideProphet -> xml2tsv -> rt
 CompassXport -> CompassXport -> CompassXport -> CompassXport -> CompassXport -> Comet -> rt
-CompassXport -> CompassXport -> CompassXport -> Comet -> PeptideProphet -> PeptideProphet -> rt
-CompassXport -> CompassXport -> CompassXport -> Comet -> PTMProphet -> idconvert -> rt
+CompassXport -> Comet -> ProteinProphet -> ProteinProphet -> idconvert -> PTMProphet -> rt
 CompassXport -> Comet -> PTMProphet -> PTMProphet -> PTMProphet -> PTMProphet -> rt
+CompassXport -> Comet -> ProteinProphet -> PeptideProphet -> ProteinProphet -> idconvert -> rt

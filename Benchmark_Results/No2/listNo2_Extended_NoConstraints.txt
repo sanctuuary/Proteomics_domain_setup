@@ -1,100 +1,100 @@
 ProCoNA
-ReAdW -> ProCoNA
-MZmine -> ProCoNA
-msConvert -> ProCoNA
 ProSight PTM -> ProCoNA
-OpenSWATH -> ProCoNA
 MassWolf -> ProCoNA
+msConvert -> ProCoNA
+MZmine -> ProCoNA
 CompassXport -> ProCoNA
+OpenSWATH -> ProCoNA
+ReAdW -> ProCoNA
 unfinnigan -> ProCoNA
-mzBruker -> ProCoNA
 T2D converter -> ProCoNA
-MZmine -> ESIprot -> ProCoNA
-MassWolf -> ICPL_ESIQuant -> ProCoNA
-CompassXport -> MassWolf -> ProCoNA
+mzBruker -> ProCoNA
+CompassXport -> CompassXport -> ProCoNA
+OpenSWATH -> msConvert -> ProCoNA
 raw2mzDB -> ProCon (Proteomics Conversion Tool) -> ProCoNA
+MZmine -> ESIprot -> ProCoNA
 OpenSWATH -> ProCon (Proteomics Conversion Tool) -> ProCoNA
-msConvert -> ms-data-core-api -> ProCoNA
-MZmine -> ProCon (Proteomics Conversion Tool) -> ProCoNA
+MassWolf -> ms-data-core-api -> ProCoNA
 ProSight PTM -> ms-data-core-api -> ProCoNA
+MZmine -> ProCon (Proteomics Conversion Tool) -> ProCoNA
+msConvert -> ms-data-core-api -> ProCoNA
+MZmine -> PGConverter -> ProCoNA
 msConvert -> PGConverter -> ProCoNA
 msConvert -> ms-data-core-api -> ProCoNA
 MZmine -> ms-data-core-api -> ProCoNA
-MassWolf -> ms-data-core-api -> ProCoNA
 MZmine -> PGConverter -> ProCoNA
+msConvert -> PGConverter -> ProCoNA
 OpenSWATH -> ms-data-core-api -> ProCoNA
 MZmine -> ms-data-core-api -> ProCoNA
-msConvert -> PGConverter -> ProCoNA
-MZmine -> PGConverter -> ProCoNA
 CompassXport -> ms-data-core-api -> ProCoNA
+unfinnigan -> ms-data-core-api -> ProCoNA
 mzBruker -> ms-data-core-api -> ProCoNA
 T2D converter -> ms-data-core-api -> ProCoNA
-unfinnigan -> ms-data-core-api -> ProCoNA
 ReAdW -> ms-data-core-api -> ProCoNA
-MassWolf -> OpenSWATH -> ProCoNA
-msConvert -> PGConverter -> ProCoNA
-msConvert -> ms-data-core-api -> ProCoNA
-ProSight PTM -> ProSight PTM -> ProCoNA
-msConvert -> libmgf -> ProCoNA
-CompassXport -> mzXML2Search -> ProCoNA
-RawTools -> DTA to MGF File Converter -> ProCoNA
-MassWolf -> mzXML2Search -> ProCoNA
 msConvert -> ProSight PTM -> ProCoNA
+msConvert -> ms-data-core-api -> ProCoNA
+MZmine -> msConvert -> ProCoNA
+msConvert -> PGConverter -> ProCoNA
+msConvert -> msConvert -> ProCoNA
+MassWolf -> mzXML2Search -> ProCoNA
+RawTools -> msConvert -> ProCoNA
+T2D converter -> mzXML2Search -> ProCoNA
+ProSight PTM -> ProSight PTM -> ProCoNA
+RawTools -> DTA to MGF File Converter -> ProCoNA
+mzBruker -> mzXML2Search -> ProCoNA
 MZmine -> ProSight PTM -> ProCoNA
-CompassXport -> ProSight PTM -> ProCoNA
 OpenSWATH -> ProSight PTM -> ProCoNA
+CompassXport -> ProSight PTM -> ProCoNA
 MassWolf -> ProSight PTM -> ProCoNA
+ReAdW -> ProSight PTM -> ProCoNA
 T2D converter -> ProSight PTM -> ProCoNA
 mzBruker -> ProSight PTM -> ProCoNA
 unfinnigan -> ProSight PTM -> ProCoNA
-ReAdW -> ProSight PTM -> ProCoNA
-RawTools -> msConvert -> ProCoNA
-ProSight PTM -> PklFileMerger -> ProCoNA
-DeconTools -> msConvert -> ProCoNA
 MassHunter File Reader -> msConvert -> ProCoNA
-msConvert -> msConvert -> ProCoNA
-MZmine -> msConvert -> ProCoNA
+ProSight PTM -> PklFileMerger -> ProCoNA
 CompassXport -> msConvert -> ProCoNA
+msConvert -> libmgf -> ProCoNA
+DeconTools -> msConvert -> ProCoNA
 MassWolf -> msConvert -> ProCoNA
-OpenSWATH -> msConvert -> ProCoNA
+ReAdW -> msConvert -> ProCoNA
 T2D converter -> msConvert -> ProCoNA
 mzBruker -> msConvert -> ProCoNA
 unfinnigan -> msConvert -> ProCoNA
-ReAdW -> msConvert -> ProCoNA
-unfinnigan -> mzXML2Search -> ProCoNA
-T2D converter -> mzXML2Search -> ProCoNA
-mzBruker -> mzXML2Search -> ProCoNA
-ReAdW -> mzXML2Search -> ProCoNA
-CompassXport -> DTA to MGF File Converter -> ProCoNA
 MassHunter File Reader -> DTA to MGF File Converter -> ProCoNA
-T2D converter -> DIA-Umpire -> ProCoNA
+CompassXport -> mzXML2Search -> ProCoNA
+unfinnigan -> mzXML2Search -> ProCoNA
+ReAdW -> mzXML2Search -> ProCoNA
+MassWolf -> DIA-Umpire -> ProCoNA
+CompassXport -> DTA to MGF File Converter -> ProCoNA
 CompassXport -> mz2mgf -> ProCoNA
+ReAdW -> DIA-Umpire -> ProCoNA
+CompassXport -> DIA-Umpire -> ProCoNA
+T2D converter -> DIA-Umpire -> ProCoNA
 mzBruker -> DIA-Umpire -> ProCoNA
 unfinnigan -> DIA-Umpire -> ProCoNA
-CompassXport -> DIA-Umpire -> ProCoNA
-MassWolf -> DIA-Umpire -> ProCoNA
-ReAdW -> DIA-Umpire -> ProCoNA
+unfinnigan -> MZmine -> ProCoNA
+T2D converter -> MZmine -> ProCoNA
+CompassXport -> MZmine -> ProCoNA
 MassWolf -> MZmine -> ProCoNA
 mzBruker -> MZmine -> ProCoNA
-T2D converter -> ICPL_ESIQuant -> ProCoNA
-CompassXport -> MZmine -> ProCoNA
-T2D converter -> MZmine -> ProCoNA
-unfinnigan -> MZmine -> ProCoNA
 ReAdW -> MZmine -> ProCoNA
+T2D converter -> ICPL_ESIQuant -> ProCoNA
 unfinnigan -> ICPL_ESIQuant -> ProCoNA
 mzBruker -> ICPL_ESIQuant -> ProCoNA
 CompassXport -> ICPL_ESIQuant -> ProCoNA
+MassWolf -> ICPL_ESIQuant -> ProCoNA
 ReAdW -> ICPL_ESIQuant -> ProCoNA
-MassWolf -> recal2 -> ProCoNA
-mzBruker -> CompassXport -> ProCoNA
-msConvert -> OpenSWATH -> ProCoNA
+MassWolf -> MassWolf -> ProCoNA
+T2D converter -> CompassXport -> ProCoNA
+unfinnigan -> recal2 -> ProCoNA
 ProSight PTM -> OpenSWATH -> ProCoNA
+msConvert -> OpenSWATH -> ProCoNA
 MZmine -> OpenSWATH -> ProCoNA
-T2D converter -> OpenSWATH -> ProCoNA
 OpenSWATH -> OpenSWATH -> ProCoNA
-mzBruker -> OpenSWATH -> ProCoNA
+MassWolf -> OpenSWATH -> ProCoNA
 CompassXport -> OpenSWATH -> ProCoNA
+T2D converter -> OpenSWATH -> ProCoNA
+mzBruker -> OpenSWATH -> ProCoNA
 unfinnigan -> OpenSWATH -> ProCoNA
 ReAdW -> OpenSWATH -> ProCoNA
-MassWolf -> mzBruker -> ProCoNA
-CompassXport -> CompassXport -> ProCoNA
+MassWolf -> T2D converter -> ProCoNA
