@@ -43,9 +43,9 @@ public class Benchmarking {
 		List<String> toolAnnotationsTemplate = Arrays.asList("Original", "Extended", "FullBioTools");
 		List<String> constraintsTemplate = Arrays.asList("WithConstraints", "NoConstraints");
 
-		List<String> useCases = getElements(useCasesTemplate, 2);
-		List<String> toolAnnotations = getElements(toolAnnotationsTemplate, 1, 2);
-		List<String> constraints = getElements(constraintsTemplate, 1, 2);
+		List<String> useCases = getElements(useCasesTemplate, 1, 2, 3, 4);
+		List<String> toolAnnotations = getElements(toolAnnotationsTemplate, 1);
+		List<String> constraints = getElements(constraintsTemplate, 1);
 
 		for (String u : useCases) {
 			for (String t : toolAnnotations) {

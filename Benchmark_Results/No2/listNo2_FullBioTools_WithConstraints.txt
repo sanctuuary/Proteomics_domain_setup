@@ -1,0 +1,12 @@
+MZmine -> BUFET -> filtercontrol -> peak2bed -> InterMine
+SIMAT -> BUFET -> gmap_snpindex -> extractcentralregions -> InterMine
+PEAKS De Novo -> BUFET -> filtercontrol -> peak2bed -> InterMine
+SIM -> BUFET -> gmap_snpindex -> extractcentralregions -> InterMine
+MZmine -> BUFET -> filtercontrol -> extractcentralregions -> InterMine
+SIM -> BUFET -> filtercontrol -> extractcentralregions -> InterMine
+SIMAT -> BUFET -> filtercontrol -> peak2bed -> InterMine
+SIM -> BUFET -> filtercontrol -> peak2bed -> InterMine
+SIM -> BUFET -> gmap_snpindex -> peak2bed -> InterMine
+SIMAT -> BUFET -> gmap_snpindex -> peak2bed -> InterMine
+SIMAT -> BUFET -> filtercontrol -> extractcentralregions -> InterMine
+PEAKS De Novo -> BUFET -> filtercontrol -> extractcentralregions -> InterMine
