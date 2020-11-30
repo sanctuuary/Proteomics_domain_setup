@@ -44,8 +44,8 @@ public class Benchmarking {
 		List<String> constraintsTemplate = Arrays.asList("WithConstraints", "NoConstraints");
 
 		List<String> useCases = getElements(useCasesTemplate, 1, 2, 3, 4);
-		List<String> toolAnnotations = getElements(toolAnnotationsTemplate, 1);
-		List<String> constraints = getElements(constraintsTemplate, 1);
+		List<String> toolAnnotations = getElements(toolAnnotationsTemplate, 1, 2);
+		List<String> constraints = getElements(constraintsTemplate, 1 , 2);
 
 		for (String u : useCases) {
 			for (String t : toolAnnotations) {

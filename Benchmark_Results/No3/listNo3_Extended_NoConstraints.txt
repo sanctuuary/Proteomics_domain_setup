@@ -1,100 +1,100 @@
 PEAKS De Novo
-MZmine -> Mascot Server
 ProSight PTM -> ProSight PTM
-MZmine -> ProFound
-PEAKS De Novo -> PeptideProphet
-DeconTools -> ProFound
-MZmine -> MS-Fit
 DeconTools -> MS-Fit
+msConvert -> MassWiz
+DeconTools -> Mascot Server
+MZmine -> MS-Fit
+MZmine -> Mascot Server
 PEAKS De Novo -> ProteinProphet
+PEAKS De Novo -> PeptideProphet
+MZmine -> ProFound
+DeconTools -> ProFound
 CompassXport -> PEAKS De Novo
+MassWolf -> PEAKS De Novo
+msConvert -> PEAKS De Novo
 RawTools -> PEAKS De Novo
 MassHunter File Reader -> PEAKS De Novo
-MassWolf -> PEAKS De Novo
 ReAdW -> PEAKS De Novo
+T2D converter -> PEAKS De Novo
 mzBruker -> PEAKS De Novo
 unfinnigan -> PEAKS De Novo
-T2D converter -> PEAKS De Novo
-DeconTools -> Mascot Server
-MassWolf -> ProMEX protein mass spectral library
-MassWolf -> Comet
-unfinnigan -> Comet
-ReAdW -> Comet
 CompassXport -> Comet
+mzBruker -> ProMEX protein mass spectral library
+MassWolf -> Comet
 T2D converter -> Comet
 mzBruker -> Comet
-unfinnigan -> PepNovo
+msConvert -> Comet
+unfinnigan -> Comet
+ReAdW -> Comet
+msConvert -> Denovogui
+msConvert -> ComPIL
 RawTools -> ComPIL
 MassHunter File Reader -> ComPIL
 CompassXport -> ComPIL
+msConvert -> PepNovo
 T2D converter -> PepNovo
 mzBruker -> PepNovo
+unfinnigan -> PepNovo
 CompassXport -> PepNovo
 MassWolf -> PepNovo
 ReAdW -> PepNovo
-CompassXport -> ProMEX protein mass spectral library
+msConvert -> ProMEX protein mass spectral library
 T2D converter -> ProMEX protein mass spectral library
-mzBruker -> ProMEX protein mass spectral library
 unfinnigan -> ProMEX protein mass spectral library
+CompassXport -> ProMEX protein mass spectral library
+MassWolf -> ProMEX protein mass spectral library
 ReAdW -> ProMEX protein mass spectral library
-mzBruker -> MZmine -> mMass
-DeconTools -> CompassXport -> Mascot Server
-MZmine -> ProSight PTM -> ProSight PTM
+msConvert -> Novor
 MZmine -> raw2mzDB -> Mascot Server
-DeconTools -> Mascot Server -> MFPaQ
-MZmine -> ESIprot -> Mascot Server
-CompassXport -> mzXML2Search -> ProSight PTM
-ProSight PTM -> PklFileMerger -> ProSight PTM
-CompassXport -> ProSight PTM -> ProSight PTM
+msConvert -> MZmine -> mMass
 ProSight PTM -> ProSight PTM -> ProSight PTM
 msConvert -> ProSight PTM -> ProSight PTM
-MassWolf -> ProSight PTM -> ProSight PTM
+MZmine -> ProSight PTM -> ProSight PTM
 OpenSWATH -> ProSight PTM -> ProSight PTM
-mzBruker -> ProSight PTM -> ProSight PTM
+MassWolf -> ProSight PTM -> ProSight PTM
+CompassXport -> ProSight PTM -> ProSight PTM
 unfinnigan -> ProSight PTM -> ProSight PTM
-ReAdW -> ProSight PTM -> ProSight PTM
+mzBruker -> ProSight PTM -> ProSight PTM
 T2D converter -> ProSight PTM -> ProSight PTM
+ReAdW -> ProSight PTM -> ProSight PTM
+ProSight PTM -> PklFileMerger -> ProSight PTM
 MassWolf -> mzXML2Search -> ProSight PTM
-unfinnigan -> mzXML2Search -> ProSight PTM
 mzBruker -> mzXML2Search -> ProSight PTM
 T2D converter -> mzXML2Search -> ProSight PTM
+CompassXport -> mzXML2Search -> ProSight PTM
+msConvert -> mzXML2Search -> ProSight PTM
 ReAdW -> mzXML2Search -> ProSight PTM
-MassWolf -> MZmine -> ProFound
-PEAKS De Novo -> ProteinProphet -> MFPaQ
-MZmine -> Mascot Server -> MFPaQ
-CompassXport -> mzXML2Search -> PepNovo
-MZmine -> MS-Fit -> MFPaQ
+unfinnigan -> mzXML2Search -> ProSight PTM
 DeconTools -> Mascot Server -> MFPaQ
-PEAKS De Novo -> PeptideProphet -> MFPaQ
-T2D converter -> Comet -> MFPaQ
-CompassXport -> Comet -> MFPaQ
-MassWolf -> Comet -> MFPaQ
-mzBruker -> Comet -> MFPaQ
-unfinnigan -> Comet -> MFPaQ
-ReAdW -> Comet -> MFPaQ
+DeconTools -> MS-Fit -> ProteinProphet
+MZmine -> Mascot Server -> MFPaQ
+mzBruker -> DeconTools -> mMass
+MZmine -> MS-Fit -> PeptideProphet
+PEAKS De Novo -> ProteinProphet -> MFPaQ
 DeconTools -> MS-Fit -> MFPaQ
+CompassXport -> Comet -> MFPaQ
+MZmine -> MS-Fit -> MFPaQ
+MassWolf -> Comet -> MFPaQ
+msConvert -> Comet -> MFPaQ
+unfinnigan -> Comet -> MFPaQ
+T2D converter -> Comet -> MFPaQ
+mzBruker -> Comet -> MFPaQ
+ReAdW -> Comet -> MFPaQ
+PEAKS De Novo -> PeptideProphet -> MFPaQ
 DeconTools -> MS-Fit -> PeptideProphet
-MZmine -> ProFound -> PeptideProphet
 DeconTools -> ProFound -> PeptideProphet
 PEAKS De Novo -> PeptideProphet -> PeptideProphet
-MZmine -> MS-Fit -> PeptideProphet
+MZmine -> ProFound -> PeptideProphet
 PEAKS De Novo -> ProteinProphet -> PeptideProphet
 RawTools -> PEAKS De Novo -> PeptideProphet
+msConvert -> PEAKS De Novo -> PeptideProphet
 MassHunter File Reader -> PEAKS De Novo -> PeptideProphet
-CompassXport -> Comet -> PeptideProphet
-CompassXport -> PEAKS De Novo -> PeptideProphet
 MassWolf -> PEAKS De Novo -> PeptideProphet
 T2D converter -> PEAKS De Novo -> PeptideProphet
+CompassXport -> PEAKS De Novo -> PeptideProphet
 mzBruker -> PEAKS De Novo -> PeptideProphet
 unfinnigan -> PEAKS De Novo -> PeptideProphet
 ReAdW -> PEAKS De Novo -> PeptideProphet
-MassWolf -> Comet -> PeptideProphet
-T2D converter -> Comet -> PeptideProphet
-mzBruker -> Comet -> PeptideProphet
 unfinnigan -> Comet -> PeptideProphet
-ReAdW -> Comet -> PeptideProphet
-MassWolf -> DeconTools -> ProFound
-CompassXport -> MZmine -> MS-Fit
-MassWolf -> MZmine -> MS-Fit
-T2D converter -> MZmine -> MS-Fit
-mzBruker -> MZmine -> MS-Fit
+MassWolf -> Comet -> PeptideProphet
+CompassXport -> Comet -> PeptideProphet

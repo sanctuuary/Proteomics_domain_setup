@@ -18,29 +18,29 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class BioToolsAPI {
-	
+
 	/** Http-Client */
 	public final static OkHttpClient client = new OkHttpClient();
 
 	public static JSONArray readListOfTools(String filePath) throws IOException {
-		
+
 		File toolList = new File(filePath);
 		JSONArray toolListJson = new JSONArray(FileUtils.readFileToString(toolList, "UTF-8"));
 		/* Fetch tool annotations */
 		JSONArray toolAnnotations = fetchToolListFromBioTools(toolListJson);
 		return toolAnnotations;
 	}
-	
+
 	public static JSONArray getToolsFromDomain(String domainName) throws IOException {
 		JSONArray toolAnnotations = null;
-		if(domainName != "") {
+		if (domainName != "") {
 			toolAnnotations = fetchToolsFromURI("https://bio.tools/api/t?domain=" + domainName + "&format=json");
 		} else {
 			toolAnnotations = fetchToolsFromURI("https://bio.tools/api/t?format=json");
 		}
 		return toolAnnotations;
 	}
-	
+
 	/**
 	 * Send Get request to get tool annotations Saves JSONArray with all the tool
 	 * annotations (in tool list)
@@ -65,7 +65,7 @@ public class BioToolsAPI {
 		System.out.println("Tools fetched.");
 		return bioToolAnnotations;
 	}
-	
+
 	/**
 	 * Send Get request to get tool annotations Saves JSONArray with all the tool
 	 * annotations (in tool list)
@@ -78,7 +78,7 @@ public class BioToolsAPI {
 		JSONArray bioToolAnnotations = new JSONArray();
 		String next = "";
 		int i = 1;
-		while(next != null) {
+		while (next != null) {
 			System.out.print("\n" + (i++) + ") ");
 			Request request = new Request.Builder().url(url + "&format=json" + next.replace('?', '&')).build();
 			try (Response response = client.newCall(request).execute()) {
@@ -98,12 +98,12 @@ public class BioToolsAPI {
 					next = null;
 				}
 			}
-			
+
 		}
 		System.out.println("Tools fetched.");
 		return bioToolAnnotations;
 	}
-	
+
 	/**
 	 * Method converts tools annotated using 'bio.tools' standard (see <a href=
 	 * "https://biotools.readthedocs.io/en/latest/api_usage_guide.html">bio.tools
@@ -124,26 +124,35 @@ public class BioToolsAPI {
 	 * @throws JSONException the json exception
 	 */
 	public static JSONObject convertBioTools2ApeAnnotation(JSONArray bioToolsAnnotation) throws JSONException {
-		Set<String> notAcceptedTools = new HashSet<String>();
-		Set<String> toolsMissingDimension = new HashSet<String>();
-		int notAcceptedOperations = 0;
 		
+		Set<String> notAcceptedTools = new HashSet<String>();
+		Set<String> noFunctionAnnotation = new HashSet<String>();
+		Set<String> toolsMissingDimension = new HashSet<String>();
+		Set<String> annotatedBioTools = new HashSet<String>();
+		int notAcceptedOperations = 0;
+		int bioToolFunctions = 0;
+
 		JSONArray apeToolsAnnotations = new JSONArray();
 		for (int i = 0; i < bioToolsAnnotation.length(); i++) {
 
 			JSONObject bioJsonTool = bioToolsAnnotation.getJSONObject(i);
 			List<JSONObject> functions = APEUtils.getListFromJson(bioJsonTool, "function", JSONObject.class);
+			if (functions.size() == 0) {
+				noFunctionAnnotation.add(bioJsonTool.getString("biotoolsID"));
+				notAcceptedTools.add(bioJsonTool.getString("biotoolsID"));
+				continue;
+			}
 			int functionNo = 1;
-			functionloop:
-			for (JSONObject function : functions) {
+			functionloop: for (JSONObject function : functions) {
+				bioToolFunctions++;
 				JSONObject apeJsonTool = new JSONObject();
 				apeJsonTool.put("label", bioJsonTool.getString("name"));
-				if(functions.size() > 1) {
+				if (functions.size() > 1) {
 					apeJsonTool.put("id", bioJsonTool.getString("biotoolsID") + "_op" + (functionNo++));
 				} else {
 					apeJsonTool.put("id", bioJsonTool.getString("biotoolsID"));
 				}
-				
+
 				JSONArray apeTaxonomyTerms = new JSONArray();
 
 				JSONArray operations = function.getJSONArray("operation");
@@ -165,7 +174,7 @@ public class BioToolsAPI {
 					for (JSONObject bioType : APEUtils.getListFromJson(bioInput, "data", JSONObject.class)) {
 						apeInputTypes.put(bioType.getString("uri"));
 					}
-					if(apeInputTypes.length() == 0) {
+					if (apeInputTypes.length() == 0) {
 						notAcceptedTools.add(bioJsonTool.getString("biotoolsID"));
 						toolsMissingDimension.add(bioJsonTool.getString("biotoolsID"));
 						notAcceptedOperations++;
@@ -176,7 +185,7 @@ public class BioToolsAPI {
 					for (JSONObject bioType : APEUtils.getListFromJson(bioInput, "format", JSONObject.class)) {
 						apeInputFormats.put(bioType.getString("uri"));
 					}
-					if(apeInputFormats.length() == 0) {
+					if (apeInputFormats.length() == 0) {
 						notAcceptedTools.add(bioJsonTool.getString("biotoolsID"));
 						toolsMissingDimension.add(bioJsonTool.getString("biotoolsID"));
 						notAcceptedOperations++;
@@ -202,7 +211,7 @@ public class BioToolsAPI {
 					for (JSONObject bioType : APEUtils.getListFromJson(bioOutput, "data", JSONObject.class)) {
 						apeOutputTypes.put(bioType.getString("uri"));
 					}
-					if(apeOutputTypes.length() == 0) {
+					if (apeOutputTypes.length() == 0) {
 						notAcceptedTools.add(bioJsonTool.getString("biotoolsID"));
 						toolsMissingDimension.add(bioJsonTool.getString("biotoolsID"));
 						notAcceptedOperations++;
@@ -213,7 +222,7 @@ public class BioToolsAPI {
 					for (JSONObject bioType : APEUtils.getListFromJson(bioOutput, "format", JSONObject.class)) {
 						apeOutputFormats.put(bioType.getString("uri"));
 					}
-					if(apeOutputFormats.length() == 0) {
+					if (apeOutputFormats.length() == 0) {
 						notAcceptedTools.add(bioJsonTool.getString("biotoolsID"));
 						toolsMissingDimension.add(bioJsonTool.getString("biotoolsID"));
 						notAcceptedOperations++;
@@ -224,23 +233,33 @@ public class BioToolsAPI {
 					apeOutputs.put(apeOutput);
 				}
 				apeJsonTool.put("outputs", apeOutputs);
-				
+
 				// if the tool has outputs add it to the tool annotation
-				if(bioOutputs.length() > 0) {
+				if (bioOutputs.length() > 0) {
 					apeToolsAnnotations.put(apeJsonTool);
+					annotatedBioTools.add(bioJsonTool.getString("biotoolsID"));
 				} else {
 					notAcceptedTools.add(bioJsonTool.getString("biotoolsID"));
 					notAcceptedOperations++;
 				}
 			}
 		}
-		System.out.println("Provided bio.tools: " + bioToolsAnnotation.length());
-		System.out.println("Errored bio.tools: " + notAcceptedTools.size());
-		System.out.println("bio.tools missing a data dimension: " + notAcceptedTools.size());
-		System.out.println("Errored bio.tools operations: " + notAcceptedOperations);
+		System.out.println("Provide bio.tools: " + bioToolsAnnotation.length());
+		System.out.println("Total bio.tools functions: " + bioToolFunctions);
+		System.out.println("Errored bio.tools functions: " + notAcceptedOperations);
+		System.out.println("No functions: " + noFunctionAnnotation.size());
 		System.out.println("Created APE annotations: " + apeToolsAnnotations.length());
 		
+		
+//		System.out.println("Errored bio.tools: " + notAcceptedTools.size());
+//		System.out.println("bio.tools missing a data dimension: " + toolsMissingDimension.size());
+//		System.out.println("No functions: " + noFunctionAnnotation.size());
+//		System.out.println("Errored bio.tools operations: " + notAcceptedOperations);
+//		System.out.println("Created APE bio.tools: " + annotatedBioTools.size());
+//		System.out.println("Created APE annotations: " + apeToolsAnnotations.length());
+//		System.out.println();
+
 		return new JSONObject().put("functions", apeToolsAnnotations);
 	}
-	
+
 }

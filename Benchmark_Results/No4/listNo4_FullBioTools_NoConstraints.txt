@@ -1,100 +1,100 @@
 MapQuant
-CompassXport -> mzXMLplot
+msConvert -> MapQuant
 DeconTools -> TDimpute
-MZmine -> TDimpute
-T2D converter -> mzXMLplot
 CompassXport -> MapQuant
+ThermoRawFileParser -> MapQuant
+T2D converter -> MapQuant
+unfinnigan -> MapQuant
+CompassXport -> TDimpute
 MassWolf -> MapQuant
+MZmine -> TDimpute
 ReAdW -> MapQuant
 mzBruker -> MapQuant
-unfinnigan -> MapQuant
-T2D converter -> MapQuant
-ReAdW -> mzXMLplot
 mzBruker -> mzXMLplot
 unfinnigan -> mzXMLplot
+CompassXport -> mzXMLplot
 MassWolf -> mzXMLplot
+T2D converter -> mzXMLplot
+msConvert -> mzXMLplot
+ReAdW -> mzXMLplot
 MassWolf -> pyQms
-CompassXport -> TDimpute
 CompassXport -> pyQms
-CompassXport -> Comet -> muxQuant
+msConvert -> pyQms
+ThermoRawFileParser -> pyQms
+T2D converter -> Comet -> Multi-Q
 T2D converter -> Comet -> muxQuant
 MassWolf -> Comet -> muxQuant
-ReAdW -> Comet -> Multi-Q
-mzBruker -> Comet -> Multi-Q
+mzBruker -> Comet -> muxQuant
+msConvert -> Comet -> muxQuant
 unfinnigan -> Comet -> muxQuant
 unfinnigan -> Comet -> Multi-Q
-MassWolf -> Comet -> Multi-Q
+CompassXport -> Comet -> muxQuant
 ReAdW -> Comet -> muxQuant
-mzBruker -> Comet -> muxQuant
-MZmine -> Mascot Server -> MassChroQ
-DeconTools -> Mascot Server -> MassChroQ
+MassWolf -> Comet -> Multi-Q
+mzBruker -> Comet -> Multi-Q
 CompassXport -> Comet -> Multi-Q
-T2D converter -> Comet -> Multi-Q
-MZmine -> Mascot Server -> TDimpute
+msConvert -> Comet -> Multi-Q
+DeconTools -> Mascot Server -> MassChroQ
+ThermoRawFileParser -> MassWiz -> MassChroQ
+msConvert -> MassWiz -> MassChroQ
+MZmine -> Mascot Server -> MassChroQ
+msConvert -> Novor -> MassChroQ
+ThermoRawFileParser -> Novor -> MassChroQ
+ReAdW -> Comet -> Multi-Q
 clc_unmapped_reads -> restrictsequencelist -> MethTargetedNGS
-clc_find_variations -> restrictsequencelist -> MethTargetedNGS
-T2D converter -> xcms -> DExSI: Targeted GC-MS Metabolomics
 clc_extract_consensus -> restrictsequencelist -> MethTargetedNGS
+clc_find_variations -> restrictsequencelist -> MethTargetedNGS
 MassWolf -> xcms -> DExSI: Targeted GC-MS Metabolomics
-CompassXport -> xcms -> DExSI: Targeted GC-MS Metabolomics
-ReAdW -> xcms -> DExSI: Targeted GC-MS Metabolomics
-mzBruker -> xcms -> DExSI: Targeted GC-MS Metabolomics
+msConvert -> MassWolf -> mzXMLplot
 DeconTools -> Mascot Server -> TDimpute
-unfinnigan -> xcms -> DExSI: Targeted GC-MS Metabolomics
-DeconTools -> TDimpute -> metaseqR
-CompassXport -> TDimpute -> TDimpute
-DeconTools -> peak2bed -> genomation
-MZmine -> TDimpute -> ComplexHeatmap
+MZmine -> Mascot Server -> ICPL_ESIQuant
+DeconTools -> Mascot Server -> ICPL_ESIQuant
+MZmine -> Mascot Server -> TDimpute
+mzBruker -> xcms -> DExSI: Targeted GC-MS Metabolomics
+MZmine -> Mascot Server -> IsobariQ
+CompassXport -> xcms -> DExSI: Targeted GC-MS Metabolomics
+DeconTools -> extractcentralregions -> genomation
+ThermoRawFileParser -> xcms -> DExSI: Targeted GC-MS Metabolomics
+DeconTools -> Mascot Server -> IsobariQ
 MZmine -> Mascot Server -> PEAKS Q
 SIMAT -> setuppromoter -> MethTargetedNGS
-OBI-Warp -> converter_genbank_to_fasta -> MethTargetedNGS
+MZmine -> genbank_to_gene -> MethTargetedNGS
 MZmine -> converter_genbank_to_fasta -> MethTargetedNGS
-SIM -> converter_genbank_to_fasta -> MethTargetedNGS
+SIM -> setuppromoter -> MethTargetedNGS
 DeconTools -> converter_genbank_to_fasta -> MethTargetedNGS
+DeconTools -> genbank_to_gene -> MethTargetedNGS
+PEAKS De Novo -> PeptideProphet -> XPRESS
+SIM -> converter_genbank_to_fasta -> MethTargetedNGS
 SIMAT -> converter_genbank_to_fasta -> MethTargetedNGS
 CompassXport -> converter_genbank_to_fasta -> MethTargetedNGS
-msConvert -> converter_genbank_to_fasta -> MethTargetedNGS
+OBI-Warp -> converter_genbank_to_fasta -> MethTargetedNGS
 RawTools -> converter_genbank_to_fasta -> MethTargetedNGS
+msConvert -> converter_genbank_to_fasta -> MethTargetedNGS
 MassHunter File Reader -> converter_genbank_to_fasta -> MethTargetedNGS
-PEAKS De Novo -> converter_genbank_to_fasta -> MethTargetedNGS
 Q4SRM -> converter_genbank_to_fasta -> MethTargetedNGS
-MZmine -> genbank_to_gene -> MethTargetedNGS
-DeconTools -> genbank_to_gene -> MethTargetedNGS
-SIMAT -> genbank_to_gene -> MethTargetedNGS
+PEAKS De Novo -> converter_genbank_to_fasta -> MethTargetedNGS
+Q4SRM -> genbank_to_gene -> MethTargetedNGS
 SIM -> genbank_to_gene -> MethTargetedNGS
+SIMAT -> genbank_to_gene -> MethTargetedNGS
 CompassXport -> genbank_to_gene -> MethTargetedNGS
-RawTools -> genbank_to_gene -> MethTargetedNGS
 OBI-Warp -> genbank_to_gene -> MethTargetedNGS
+RawTools -> genbank_to_gene -> MethTargetedNGS
 msConvert -> genbank_to_gene -> MethTargetedNGS
 MassHunter File Reader -> genbank_to_gene -> MethTargetedNGS
-Q4SRM -> genbank_to_gene -> MethTargetedNGS
 PEAKS De Novo -> genbank_to_gene -> MethTargetedNGS
-SIM -> setuppromoter -> MethTargetedNGS
-MZmine -> extractcentralregions -> genomation
+Q4SRM -> peak2bed -> genomation
 MZmine -> peak2bed -> genomation
-DeconTools -> extractcentralregions -> genomation
-SIM -> extractcentralregions -> genomation
+DeconTools -> peak2bed -> genomation
 SIM -> peak2bed -> genomation
 SIMAT -> peak2bed -> genomation
 CompassXport -> peak2bed -> genomation
 OBI-Warp -> peak2bed -> genomation
 RawTools -> peak2bed -> genomation
-MassHunter File Reader -> peak2bed -> genomation
 msConvert -> peak2bed -> genomation
-Q4SRM -> peak2bed -> genomation
+MassHunter File Reader -> peak2bed -> genomation
 PEAKS De Novo -> peak2bed -> genomation
-msConvert -> extractcentralregions -> genomation
+PEAKS De Novo -> extractcentralregions -> genomation
+MZmine -> extractcentralregions -> genomation
+SIM -> extractcentralregions -> genomation
 SIMAT -> extractcentralregions -> genomation
 CompassXport -> extractcentralregions -> genomation
-OBI-Warp -> extractcentralregions -> genomation
-RawTools -> extractcentralregions -> genomation
-MassHunter File Reader -> extractcentralregions -> genomation
-Q4SRM -> extractcentralregions -> genomation
-PEAKS De Novo -> extractcentralregions -> genomation
-DeconTools -> TDimpute -> ComplexHeatmap
-CompassXport -> TDimpute -> ComplexHeatmap
-MZmine -> Mascot Server -> ICPL_ESIQuant
-CompassXport -> mzXML2Search -> MapQuant
-CompassXport -> DIA-Umpire -> MapQuant
-T2D converter -> mzXML2Search -> MapQuant
-CompassXport -> mz2mgf -> MapQuant

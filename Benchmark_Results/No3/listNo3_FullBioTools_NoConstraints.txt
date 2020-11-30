@@ -1,0 +1,100 @@
+PEAKS De Novo
+ProSight PTM -> ProSight PTM
+DeconTools -> Mascot Server
+MZmine -> Mascot Server
+PEAKS De Novo -> ProteinProphet
+MZmine -> ProFound
+msConvert -> Novor
+T2D converter -> Comet
+mzBruker -> Comet
+unfinnigan -> Comet
+CompassXport -> Comet
+MassWolf -> Comet
+msConvert -> Comet
+ReAdW -> Comet
+ThermoRawFileParser -> Comet
+PEAKS De Novo -> PeptideProphet
+MZmine -> MS-Fit
+DeconTools -> MS-Fit
+ReAdW -> ProMEX protein mass spectral library
+mzBruker -> ProMEX protein mass spectral library
+msConvert -> ProMEX protein mass spectral library
+ThermoRawFileParser -> ProMEX protein mass spectral library
+MassWolf -> ProMEX protein mass spectral library
+unfinnigan -> ProMEX protein mass spectral library
+CompassXport -> ProMEX protein mass spectral library
+T2D converter -> ProMEX protein mass spectral library
+DeconTools -> ProFound
+msConvert -> PEAKS De Novo
+T2D converter -> PEAKS De Novo
+ThermoRawFileParser -> PEAKS De Novo
+unfinnigan -> PEAKS De Novo
+mzBruker -> PEAKS De Novo
+CompassXport -> PEAKS De Novo
+MassWolf -> PEAKS De Novo
+ReAdW -> PEAKS De Novo
+RawTools -> PEAKS De Novo
+MassHunter File Reader -> PEAKS De Novo
+msConvert -> MassWiz
+ThermoRawFileParser -> Novor
+ThermoRawFileParser -> MassWiz
+msConvert -> Denovogui
+CompassXport -> ComPIL
+RawTools -> ComPIL
+msConvert -> ComPIL
+MassHunter File Reader -> ComPIL
+ThermoRawFileParser -> Denovogui
+msConvert -> PepNovo
+ThermoRawFileParser -> PepNovo
+mzBruker -> PepNovo
+unfinnigan -> PepNovo
+CompassXport -> PepNovo
+MassWolf -> PepNovo
+T2D converter -> PepNovo
+ReAdW -> PepNovo
+ProSight PTM -> PklFileMerger -> ProSight PTM
+OpenSWATH -> ProSight PTM -> ProSight PTM
+ProSight PTM -> ProSight PTM -> ProSight PTM
+T2D converter -> ProSight PTM -> ProSight PTM
+MZmine -> ESIprot -> Mascot Server
+msConvert -> DeconTools -> mMass
+MZmine -> Mascot Server -> xml2tsv
+CompassXport -> MZmine -> Mascot Server
+PEAKS De Novo -> MZmine -> Mascot Server
+CompassXport -> MZmine -> mMass
+ThermoRawFileParser -> DeconTools -> mMass
+MZmine -> ProSight PTM -> ProSight PTM
+MZmine -> Mascot Server -> idconvert
+DeconTools -> msConvert -> Mascot Server
+PEAKS De Novo -> ProteinProphet -> Percolator
+DeconTools -> Mascot Server -> idconvert
+DeconTools -> MS-Fit -> Percolator
+DeconTools -> Mascot Server -> xml2tsv
+DeconTools -> MS-Fit -> ProteinProphet
+MZmine -> msConvert -> Mascot Server
+MZmine -> MS-Fit -> PeptideProphet
+CompassXport -> msConvert -> PEAKS De Novo
+DeconTools -> MS-Fit -> PeptideProphet
+MassHunter File Reader -> msConvert -> PEAKS De Novo
+msConvert -> ReAdW -> Comet
+DeconTools -> CompassXport -> Mascot Server
+MZmine -> CompassXport -> Mascot Server
+T2D converter -> mzXML2Search -> ProSight PTM
+msConvert -> ProSight PTM -> ProSight PTM
+ThermoRawFileParser -> ProSight PTM -> ProSight PTM
+MassWolf -> ProSight PTM -> ProSight PTM
+mzBruker -> ProSight PTM -> ProSight PTM
+unfinnigan -> ProSight PTM -> ProSight PTM
+CompassXport -> ProSight PTM -> ProSight PTM
+ReAdW -> ProSight PTM -> ProSight PTM
+msConvert -> mzXML2Search -> ProSight PTM
+mzBruker -> mzXML2Search -> ProSight PTM
+unfinnigan -> mzXML2Search -> ProSight PTM
+CompassXport -> mzXML2Search -> ProSight PTM
+MassWolf -> mzXML2Search -> ProSight PTM
+ReAdW -> mzXML2Search -> ProSight PTM
+PEAKS De Novo -> DeconTools -> Mascot Server
+ThermoRawFileParser -> mzXML2Search -> ProSight PTM
+MZmine -> Mascot Server -> dat2mgf
+DeconTools -> Mascot Server -> dat2mgf
+MZmine -> Mascot Server -> DataAnalysis2TPP

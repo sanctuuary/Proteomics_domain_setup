@@ -1,100 +1,100 @@
 MapQuant
-unfinnigan -> mzXMLplot
-T2D converter -> mzXMLplot
-MassWolf -> mzXMLplot
-ReAdW -> mzXMLplot
-CompassXport -> MapQuant
-CompassXport -> mzXMLplot
-MassWolf -> MapQuant
-mzBruker -> mzXMLplot
-T2D converter -> MapQuant
-ReAdW -> MapQuant
 mzBruker -> MapQuant
+T2D converter -> MapQuant
+MassWolf -> mzXMLplot
+msConvert -> mzXMLplot
+msConvert -> MapQuant
+T2D converter -> mzXMLplot
+CompassXport -> MapQuant
+mzBruker -> mzXMLplot
+unfinnigan -> mzXMLplot
+CompassXport -> mzXMLplot
+ReAdW -> mzXMLplot
+MassWolf -> MapQuant
 unfinnigan -> MapQuant
-mzBruker -> Comet -> muxQuant
-MZmine -> Mascot Server -> PEAKS Q
+ReAdW -> MapQuant
+CompassXport -> MassWolf -> mzXMLplot
+ReAdW -> Comet -> Multi-Q
+msConvert -> MassWiz -> PEAKS Q
+msConvert -> Comet -> Multi-Q
+MassWolf -> Comet -> Multi-Q
 DeconTools -> Mascot Server -> PEAKS Q
-PEAKS De Novo -> PeptideProphet -> Libra
-DeconTools -> Mascot Server -> MassChroQ
+MZmine -> Mascot Server -> PEAKS Q
+msConvert -> Novor -> PEAKS Q
 MZmine -> Mascot Server -> MassChroQ
-PEAKS De Novo -> PeptideProphet -> XPRESS
-CompassXport -> Comet -> Libra
-unfinnigan -> Comet -> Libra
+CompassXport -> Comet -> Multi-Q
+DeconTools -> Mascot Server -> MassChroQ
+msConvert -> Novor -> MassChroQ
+msConvert -> MassWiz -> MassChroQ
+PEAKS De Novo -> PeptideProphet -> Libra
 MassWolf -> Comet -> Libra
-ReAdW -> Comet -> Libra
+T2D converter -> Comet -> XPRESS
+CompassXport -> Comet -> Libra
+msConvert -> Comet -> Libra
+unfinnigan -> Comet -> Libra
 mzBruker -> Comet -> Libra
 T2D converter -> Comet -> Libra
-MassWolf -> Comet -> XPRESS
+ReAdW -> Comet -> Libra
+msConvert -> Comet -> XPRESS
 CompassXport -> Comet -> XPRESS
-T2D converter -> Comet -> XPRESS
+MassWolf -> Comet -> XPRESS
 mzBruker -> Comet -> XPRESS
 unfinnigan -> Comet -> XPRESS
 ReAdW -> Comet -> XPRESS
-MZmine -> Mascot Server -> IsobariQ
+PEAKS De Novo -> PeptideProphet -> XPRESS
 MZmine -> Mascot Server -> ICPL_ESIQuant
+MassWolf -> mzXML2Search -> MapQuant
 DeconTools -> Mascot Server -> ICPL_ESIQuant
 MassWolf -> Comet -> muxQuant
 unfinnigan -> Comet -> muxQuant
 T2D converter -> Comet -> muxQuant
+mzBruker -> Comet -> muxQuant
 CompassXport -> Comet -> muxQuant
+msConvert -> Comet -> muxQuant
 ReAdW -> Comet -> muxQuant
+msConvert -> MassWolf -> mzXMLplot
+msConvert -> T2D converter -> mzXMLplot
+MassWolf -> T2D converter -> mzXMLplot
+T2D converter -> T2D converter -> mzXMLplot
+CompassXport -> T2D converter -> mzXMLplot
+mzBruker -> T2D converter -> mzXMLplot
+unfinnigan -> T2D converter -> mzXMLplot
+ReAdW -> T2D converter -> mzXMLplot
+RawTools -> msConvert -> mzXMLplot
+msConvert -> mzBruker -> mzXMLplot
+CompassXport -> mzBruker -> mzXMLplot
+MassWolf -> mzBruker -> mzXMLplot
+mzBruker -> mzBruker -> mzXMLplot
+T2D converter -> mzBruker -> mzXMLplot
+unfinnigan -> mzBruker -> mzXMLplot
+ReAdW -> mzBruker -> mzXMLplot
+MassHunter File Reader -> msConvert -> mzXMLplot
+msConvert -> unfinnigan -> mzXMLplot
+msConvert -> msConvert -> mzXMLplot
+CompassXport -> msConvert -> mzXMLplot
+msConvert -> CompassXport -> mzXMLplot
 CompassXport -> CompassXport -> mzXMLplot
 MassWolf -> CompassXport -> mzXMLplot
-CompassXport -> mzBruker -> mzXMLplot
-CompassXport -> T2D converter -> mzXMLplot
-MassWolf -> T2D converter -> mzXMLplot
-unfinnigan -> T2D converter -> mzXMLplot
-T2D converter -> T2D converter -> mzXMLplot
-mzBruker -> T2D converter -> mzXMLplot
-ReAdW -> T2D converter -> mzXMLplot
-MassWolf -> mzBruker -> mzXMLplot
-ReAdW -> mzBruker -> mzXMLplot
-T2D converter -> mzBruker -> mzXMLplot
-mzBruker -> mzBruker -> mzXMLplot
-unfinnigan -> mzBruker -> mzXMLplot
-unfinnigan -> CompassXport -> mzXMLplot
 T2D converter -> CompassXport -> mzXMLplot
 mzBruker -> CompassXport -> mzXMLplot
+unfinnigan -> CompassXport -> mzXMLplot
 ReAdW -> CompassXport -> mzXMLplot
-CompassXport -> MassWolf -> mzXMLplot
+ReAdW -> recal2 -> mzXMLplot
 MassWolf -> MassWolf -> mzXMLplot
 T2D converter -> MassWolf -> mzXMLplot
 mzBruker -> MassWolf -> mzXMLplot
 unfinnigan -> MassWolf -> mzXMLplot
 ReAdW -> MassWolf -> mzXMLplot
-CompassXport -> recal2 -> mzXMLplot
-T2D converter -> recal2 -> mzXMLplot
+ReAdW -> msConvert -> mzXMLplot
+MassWolf -> msConvert -> mzXMLplot
+T2D converter -> msConvert -> mzXMLplot
+mzBruker -> msConvert -> mzXMLplot
+unfinnigan -> msConvert -> mzXMLplot
 mzBruker -> recal2 -> mzXMLplot
+msConvert -> ReAdW -> mzXMLplot
+T2D converter -> recal2 -> mzXMLplot
 unfinnigan -> recal2 -> mzXMLplot
+CompassXport -> recal2 -> mzXMLplot
 MassWolf -> recal2 -> mzXMLplot
-ReAdW -> recal2 -> mzXMLplot
-CompassXport -> Comet -> Multi-Q
-RawTools -> DTA to MGF File Converter -> MapQuant
-MassWolf -> mzXML2Search -> MapQuant
-CompassXport -> mzXML2Search -> MapQuant
-T2D converter -> mzXML2Search -> MapQuant
-mzBruker -> mzXML2Search -> MapQuant
-unfinnigan -> mzXML2Search -> MapQuant
-ReAdW -> mzXML2Search -> MapQuant
-MassHunter File Reader -> DTA to MGF File Converter -> MapQuant
-CompassXport -> mz2mgf -> MapQuant
-CompassXport -> DTA to MGF File Converter -> MapQuant
-MassWolf -> DIA-Umpire -> MapQuant
-ReAdW -> DIA-Umpire -> MapQuant
-T2D converter -> DIA-Umpire -> MapQuant
-mzBruker -> DIA-Umpire -> MapQuant
-unfinnigan -> DIA-Umpire -> MapQuant
-CompassXport -> DIA-Umpire -> MapQuant
-MassWolf -> MassWolf -> MapQuant
-CompassXport -> MassWolf -> MapQuant
-CompassXport -> CompassXport -> MapQuant
-MassWolf -> CompassXport -> MapQuant
-T2D converter -> CompassXport -> MapQuant
-mzBruker -> CompassXport -> MapQuant
-unfinnigan -> CompassXport -> MapQuant
-ReAdW -> CompassXport -> MapQuant
-unfinnigan -> MassWolf -> MapQuant
-ReAdW -> MassWolf -> MapQuant
-T2D converter -> MassWolf -> MapQuant
-mzBruker -> MassWolf -> MapQuant
-MassWolf -> recal2 -> MapQuant
+msConvert -> recal2 -> mzXMLplot
+mzBruker -> Comet -> Multi-Q
