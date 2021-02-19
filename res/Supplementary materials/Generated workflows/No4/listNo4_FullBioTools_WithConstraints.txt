@@ -1,0 +1,100 @@
+PEAKS De Novo -> PeptideProphet -> Libra
+ThermoRawFileParser -> MassWiz -> PEAKS Q
+msConvert -> MassWiz -> PEAKS Q
+ReAdW -> PEAKS De Novo -> PeptideProphet -> Multi-Q
+MassWolf -> Comet -> PeptideProphet -> Multi-Q
+msConvert -> MassWiz -> PEAKS Q -> TDimpute
+ThermoRawFileParser -> MassWiz -> PEAKS Q -> TDimpute
+CompassXport -> Comet -> PeptideProphet -> Multi-Q
+PEAKS De Novo -> T2D converter -> PeptideProphet -> Multi-Q
+PEAKS De Novo -> msConvert -> PeptideProphet -> Multi-Q
+T2D converter -> Comet -> PeptideProphet -> Multi-Q
+PEAKS De Novo -> PeptideProphet -> PeptideProphet -> Libra
+unfinnigan -> Comet -> PeptideProphet -> Multi-Q
+msConvert -> Comet -> PeptideProphet -> Multi-Q
+MZmine -> ProFound -> PeptideProphet -> Libra
+CompassXport -> DTA to MGF File Converter -> MassWiz -> PEAKS Q
+PEAKS De Novo -> ReAdW -> PeptideProphet -> Multi-Q
+T2D converter -> Comet -> PeptideProphet -> Libra
+MassWolf -> Comet -> PeptideProphet -> Libra
+mzBruker -> Comet -> PeptideProphet -> Libra
+unfinnigan -> Comet -> PeptideProphet -> Libra
+CompassXport -> Comet -> PeptideProphet -> Libra
+msConvert -> Comet -> PeptideProphet -> Libra
+ReAdW -> Comet -> PeptideProphet -> Libra
+ThermoRawFileParser -> Comet -> PeptideProphet -> Libra
+PEAKS De Novo -> ProteinProphet -> PeptideProphet -> Libra
+PEAKS De Novo -> mzBruker -> PeptideProphet -> Multi-Q
+DeconTools -> MS-Fit -> PeptideProphet -> Libra
+DeconTools -> ProFound -> PeptideProphet -> Libra
+MZmine -> MS-Fit -> PeptideProphet -> Libra
+ReAdW -> Comet -> PeptideProphet -> Multi-Q
+mzBruker -> PEAKS De Novo -> PeptideProphet -> Libra
+CompassXport -> PEAKS De Novo -> PeptideProphet -> Libra
+msConvert -> PEAKS De Novo -> PeptideProphet -> Libra
+ThermoRawFileParser -> PEAKS De Novo -> PeptideProphet -> Libra
+unfinnigan -> PEAKS De Novo -> PeptideProphet -> Libra
+MassWolf -> PEAKS De Novo -> PeptideProphet -> Libra
+T2D converter -> PEAKS De Novo -> PeptideProphet -> Libra
+ReAdW -> PEAKS De Novo -> PeptideProphet -> Libra
+RawTools -> PEAKS De Novo -> PeptideProphet -> Libra
+MassHunter File Reader -> PEAKS De Novo -> PeptideProphet -> Libra
+mzBruker -> Comet -> PeptideProphet -> Multi-Q
+PEAKS De Novo -> unfinnigan -> PeptideProphet -> Multi-Q
+MassWolf -> PEAKS De Novo -> PeptideProphet -> Multi-Q
+mzBruker -> PEAKS De Novo -> PeptideProphet -> Multi-Q
+unfinnigan -> PEAKS De Novo -> PeptideProphet -> Multi-Q
+CompassXport -> PEAKS De Novo -> PeptideProphet -> Multi-Q
+T2D converter -> PEAKS De Novo -> PeptideProphet -> Multi-Q
+msConvert -> PEAKS De Novo -> PeptideProphet -> Multi-Q
+PEAKS De Novo -> CompassXport -> PeptideProphet -> Multi-Q
+PEAKS De Novo -> MassWolf -> PeptideProphet -> Multi-Q
+RawTools -> DTA to MGF File Converter -> MassWiz -> PEAKS Q
+CompassXport -> mzXML2Search -> MassWiz -> PEAKS Q
+mzBruker -> mzXML2Search -> MassWiz -> PEAKS Q
+unfinnigan -> mzXML2Search -> MassWiz -> PEAKS Q
+MassWolf -> mzXML2Search -> MassWiz -> PEAKS Q
+T2D converter -> mzXML2Search -> MassWiz -> PEAKS Q
+msConvert -> mzXML2Search -> MassWiz -> PEAKS Q
+ReAdW -> mzXML2Search -> MassWiz -> PEAKS Q
+ThermoRawFileParser -> mzXML2Search -> MassWiz -> PEAKS Q
+ThermoRawFileParser -> msConvert -> MassWiz -> PEAKS Q
+CompassXport -> msConvert -> MassWiz -> PEAKS Q
+RawTools -> msConvert -> MassWiz -> PEAKS Q
+CompassXport -> mz2mgf -> MassWiz -> PEAKS Q
+msConvert -> msConvert -> MassWiz -> PEAKS Q
+MassHunter File Reader -> DTA to MGF File Converter -> MassWiz -> PEAKS Q
+msConvert -> DTA to MGF File Converter -> MassWiz -> PEAKS Q
+MassHunter File Reader -> msConvert -> MassWiz -> PEAKS Q
+mzBruker -> msConvert -> MassWiz -> PEAKS Q
+unfinnigan -> msConvert -> MassWiz -> PEAKS Q
+MassWolf -> msConvert -> MassWiz -> PEAKS Q
+T2D converter -> msConvert -> MassWiz -> PEAKS Q
+ReAdW -> msConvert -> MassWiz -> PEAKS Q
+ThermoRawFileParser -> collect_mgf -> MassWiz -> PEAKS Q
+msConvert -> collect_mgf -> MassWiz -> PEAKS Q
+T2D converter -> DIA-Umpire -> MassWiz -> PEAKS Q
+msConvert -> Y.A.D.A. -> MassWiz -> PEAKS Q
+ThermoRawFileParser -> Y.A.D.A. -> MassWiz -> PEAKS Q
+mzBruker -> DIA-Umpire -> MassWiz -> PEAKS Q
+msConvert -> ThermoRawFileParser -> MassWiz -> PEAKS Q
+unfinnigan -> DIA-Umpire -> MassWiz -> PEAKS Q
+CompassXport -> DIA-Umpire -> MassWiz -> PEAKS Q
+MassWolf -> DIA-Umpire -> MassWiz -> PEAKS Q
+msConvert -> DIA-Umpire -> MassWiz -> PEAKS Q
+ReAdW -> DIA-Umpire -> MassWiz -> PEAKS Q
+msConvert -> MZmine -> mMass -> PeptideProphet -> Multi-Q
+MassWolf -> MZmine -> mMass -> PeptideProphet -> Multi-Q
+PEAKS De Novo -> ProteinProphet -> CompassXport -> PeptideProphet -> Multi-Q
+msConvert -> PEAKS De Novo -> PeptideProphet -> Multi-Q -> TDimpute
+PEAKS De Novo -> msConvert -> PeptideProphet -> Multi-Q -> TDimpute
+T2D converter -> MZmine -> mMass -> PeptideProphet -> Multi-Q
+T2D converter -> DeconTools -> mMass -> PeptideProphet -> Multi-Q
+MZmine -> msConvert -> mMass -> PeptideProphet -> Multi-Q
+DeconTools -> ProFound -> CompassXport -> PeptideProphet -> Multi-Q
+msConvert -> MassWiz -> PEAKS Q -> extractcentralregions -> genomation
+PEAKS De Novo -> ProteinProphet -> MassWolf -> PeptideProphet -> Multi-Q
+PEAKS De Novo -> CompassXport -> ProteinProphet -> PeptideProphet -> Multi-Q
+MassWolf -> Comet -> msConvert -> PeptideProphet -> Multi-Q
+msConvert -> PEAKS De Novo -> msConvert -> PeptideProphet -> Multi-Q
+PEAKS De Novo -> ReAdW -> PeptideProphet -> Multi-Q -> TDimpute

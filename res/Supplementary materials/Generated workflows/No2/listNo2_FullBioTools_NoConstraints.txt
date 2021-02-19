@@ -1,0 +1,100 @@
+ProCoNA
+CompassXport -> ProCoNA
+MZmine -> ProCoNA
+OpenSWATH -> ProCoNA
+ProSight PTM -> ProCoNA
+msConvert -> ProCoNA
+ThermoRawFileParser -> ProCoNA
+T2D converter -> ProCoNA
+mzBruker -> ProCoNA
+unfinnigan -> ProCoNA
+MassWolf -> ProCoNA
+ReAdW -> ProCoNA
+MZmine -> ESIprot -> ProCoNA
+CompassXport -> pyQms -> SynTReN
+MZmine -> PGConverter -> ProCoNA
+CompassXport -> ICPL_ESIQuant -> ProCoNA
+raw2mzDB -> ProCon (Proteomics Conversion Tool) -> ProCoNA
+DeconTools -> peak2bed -> InterMine
+Q4SRM -> peak2bed -> InterMine
+PEAKS De Novo -> extractcentralregions -> InterMine
+SIM -> extractcentralregions -> InterMine
+msConvert -> ICPL_ESIQuant -> ProCoNA
+OBI-Warp -> extractcentralregions -> InterMine
+msConvert -> PGConverter -> ProCoNA
+SIMAT -> extractcentralregions -> InterMine
+MZmine -> TDimpute -> SCENERY
+DeconTools -> TDimpute -> SCENERY
+CompassXport -> TDimpute -> SCENERY
+msConvert -> MZmine -> ProCoNA
+MZmine -> TDimpute -> SynTReN
+msConvert -> pyQms -> SynTReN
+msConvert -> ms-data-core-api -> ProCoNA
+PEAKS De Novo -> peak2bed -> InterMine
+CompassXport -> xcms -> ProCoNA
+MassWolf -> pyQms -> SynTReN
+msConvert -> xcms -> ProCoNA
+MassWolf -> xcms -> ProCoNA
+MZmine -> extractcentralregions -> InterMine
+DeconTools -> TDimpute -> SynTReN
+CompassXport -> TDimpute -> SynTReN
+ThermoRawFileParser -> pyQms -> SynTReN
+ThermoRawFileParser -> xcms -> ProCoNA
+MZmine -> peak2bed -> InterMine
+CompassXport -> peak2bed -> InterMine
+OBI-Warp -> peak2bed -> InterMine
+SIM -> peak2bed -> InterMine
+DeconTools -> extractcentralregions -> InterMine
+SIMAT -> peak2bed -> InterMine
+msConvert -> peak2bed -> InterMine
+MassHunter File Reader -> peak2bed -> InterMine
+RawTools -> peak2bed -> InterMine
+CompassXport -> extractcentralregions -> InterMine
+RawTools -> extractcentralregions -> InterMine
+msConvert -> extractcentralregions -> InterMine
+MassHunter File Reader -> extractcentralregions -> InterMine
+Q4SRM -> extractcentralregions -> InterMine
+T2D converter -> xcms -> ProCoNA
+MassWolf -> MZmine -> ProCoNA
+CompassXport -> MZmine -> ProCoNA
+msConvert -> libmgf -> ProCoNA
+msConvert -> mzXML2Search -> ProCoNA
+ProSight PTM -> PklFileMerger -> ProCoNA
+CompassXport -> mz2mgf -> ProCoNA
+msConvert -> ProSight PTM -> ProCoNA
+ThermoRawFileParser -> ProSight PTM -> ProCoNA
+ProSight PTM -> ProSight PTM -> ProCoNA
+OpenSWATH -> ProSight PTM -> ProCoNA
+CompassXport -> ProSight PTM -> ProCoNA
+mzBruker -> ProSight PTM -> ProCoNA
+unfinnigan -> ProSight PTM -> ProCoNA
+MassWolf -> ProSight PTM -> ProCoNA
+T2D converter -> ProSight PTM -> ProCoNA
+ReAdW -> ProSight PTM -> ProCoNA
+MZmine -> ProSight PTM -> ProCoNA
+MassHunter File Reader -> DTA to MGF File Converter -> ProCoNA
+CompassXport -> msConvert -> ProCoNA
+ThermoRawFileParser -> libmgf -> ProCoNA
+CompassXport -> DTA to MGF File Converter -> ProCoNA
+mzBruker -> mzXML2Search -> ProCoNA
+unfinnigan -> mzXML2Search -> ProCoNA
+CompassXport -> mzXML2Search -> ProCoNA
+MassWolf -> mzXML2Search -> ProCoNA
+T2D converter -> mzXML2Search -> ProCoNA
+ReAdW -> mzXML2Search -> ProCoNA
+ThermoRawFileParser -> mzXML2Search -> ProCoNA
+RawTools -> msConvert -> ProCoNA
+RawTools -> DTA to MGF File Converter -> ProCoNA
+msConvert -> DTA to MGF File Converter -> ProCoNA
+ThermoRawFileParser -> msConvert -> ProCoNA
+msConvert -> msConvert -> ProCoNA
+mzBruker -> msConvert -> ProCoNA
+unfinnigan -> msConvert -> ProCoNA
+MassWolf -> msConvert -> ProCoNA
+T2D converter -> msConvert -> ProCoNA
+ReAdW -> msConvert -> ProCoNA
+MassHunter File Reader -> msConvert -> ProCoNA
+ThermoRawFileParser -> collect_mgf -> ProCoNA
+msConvert -> collect_mgf -> ProCoNA
+msConvert -> ThermoRawFileParser -> ProCoNA
+msConvert -> Y.A.D.A. -> ProCoNA

@@ -235,7 +235,7 @@ public class BioToolsAPI {
 				apeJsonTool.put("outputs", apeOutputs);
 
 				// if the tool has outputs add it to the tool annotation
-				if (bioOutputs.length() > 0) {
+				if (apeInputs.length() > 0 && apeOutputs.length() > 0) {
 					apeToolsAnnotations.put(apeJsonTool);
 					annotatedBioTools.add(bioJsonTool.getString("biotoolsID"));
 				} else {

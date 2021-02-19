@@ -1,0 +1,100 @@
+MapQuant
+CompassXport -> TDimpute
+DeconTools -> TDimpute
+MZmine -> TDimpute
+MassWolf -> pyQms
+CompassXport -> MapQuant
+T2D converter -> MapQuant
+msConvert -> MapQuant
+ThermoRawFileParser -> MapQuant
+unfinnigan -> MapQuant
+MassWolf -> MapQuant
+mzBruker -> MapQuant
+ReAdW -> MapQuant
+unfinnigan -> mzXMLplot
+mzBruker -> mzXMLplot
+CompassXport -> mzXMLplot
+MassWolf -> mzXMLplot
+T2D converter -> mzXMLplot
+msConvert -> mzXMLplot
+ReAdW -> mzXMLplot
+msConvert -> pyQms
+CompassXport -> pyQms
+ThermoRawFileParser -> pyQms
+MZmine -> Mascot Server -> ICPL_ESIQuant
+CompassXport -> Comet -> muxQuant
+MZmine -> Mascot Server -> MassChroQ
+DeconTools -> Mascot Server -> MassChroQ
+msConvert -> Novor -> MassChroQ
+unfinnigan -> Comet -> muxQuant
+T2D converter -> Comet -> muxQuant
+MassWolf -> Comet -> muxQuant
+msConvert -> Comet -> muxQuant
+msConvert -> Comet -> Multi-Q
+ThermoRawFileParser -> Novor -> MassChroQ
+msConvert -> MassWiz -> MassChroQ
+ThermoRawFileParser -> MassWiz -> MassChroQ
+ReAdW -> Comet -> muxQuant
+mzBruker -> xcms -> DExSI: Targeted GC-MS Metabolomics
+RawTools -> msConvert -> MapQuant
+mzBruker -> Comet -> muxQuant
+T2D converter -> Comet -> Multi-Q
+MassWolf -> Comet -> Multi-Q
+ReAdW -> Comet -> Multi-Q
+unfinnigan -> Comet -> Multi-Q
+CompassXport -> Comet -> Multi-Q
+mzBruker -> Comet -> Multi-Q
+msConvert -> xcms -> DExSI: Targeted GC-MS Metabolomics
+CompassXport -> xcms -> DExSI: Targeted GC-MS Metabolomics
+T2D converter -> xcms -> DExSI: Targeted GC-MS Metabolomics
+clc_extract_consensus -> restrictsequencelist -> MethTargetedNGS
+DeconTools -> TDimpute -> bayNorm
+DeconTools -> Mascot Server -> ICPL_ESIQuant
+clc_find_variations -> restrictsequencelist -> MethTargetedNGS
+SIM -> setuppromoter -> MethTargetedNGS
+clc_unmapped_reads -> restrictsequencelist -> MethTargetedNGS
+MZmine -> Mascot Server -> IsobariQ
+MassWolf -> xcms -> DExSI: Targeted GC-MS Metabolomics
+ThermoRawFileParser -> xcms -> DExSI: Targeted GC-MS Metabolomics
+CompassXport -> mzBruker -> mzXMLplot
+msConvert -> CompassXport -> pyQms
+msConvert -> ReAdW -> MapQuant
+T2D converter -> Comet -> Libra
+MZmine -> TDimpute -> bayNorm
+mzBruker -> Comet -> XPRESS
+MZmine -> TDimpute -> metaseqR
+MZmine -> genbank_to_gene -> MethTargetedNGS
+SIM -> genbank_to_gene -> MethTargetedNGS
+SIMAT -> setuppromoter -> MethTargetedNGS
+ReAdW -> xcms -> DExSI: Targeted GC-MS Metabolomics
+MZmine -> converter_genbank_to_fasta -> MethTargetedNGS
+DeconTools -> converter_genbank_to_fasta -> MethTargetedNGS
+PEAKS De Novo -> PeptideProphet -> Libra
+CompassXport -> converter_genbank_to_fasta -> MethTargetedNGS
+SIM -> converter_genbank_to_fasta -> MethTargetedNGS
+SIMAT -> converter_genbank_to_fasta -> MethTargetedNGS
+RawTools -> converter_genbank_to_fasta -> MethTargetedNGS
+OBI-Warp -> converter_genbank_to_fasta -> MethTargetedNGS
+msConvert -> converter_genbank_to_fasta -> MethTargetedNGS
+MassHunter File Reader -> converter_genbank_to_fasta -> MethTargetedNGS
+PEAKS De Novo -> converter_genbank_to_fasta -> MethTargetedNGS
+Q4SRM -> converter_genbank_to_fasta -> MethTargetedNGS
+DeconTools -> genbank_to_gene -> MethTargetedNGS
+SIMAT -> genbank_to_gene -> MethTargetedNGS
+CompassXport -> genbank_to_gene -> MethTargetedNGS
+OBI-Warp -> genbank_to_gene -> MethTargetedNGS
+msConvert -> genbank_to_gene -> MethTargetedNGS
+MassHunter File Reader -> genbank_to_gene -> MethTargetedNGS
+RawTools -> genbank_to_gene -> MethTargetedNGS
+Q4SRM -> genbank_to_gene -> MethTargetedNGS
+PEAKS De Novo -> genbank_to_gene -> MethTargetedNGS
+MZmine -> peak2bed -> genomation
+MZmine -> extractcentralregions -> genomation
+MZmine -> TDimpute -> TDimpute
+DeconTools -> peak2bed -> genomation
+SIM -> peak2bed -> genomation
+SIMAT -> peak2bed -> genomation
+CompassXport -> peak2bed -> genomation
+Q4SRM -> peak2bed -> genomation
+OBI-Warp -> peak2bed -> genomation
+RawTools -> peak2bed -> genomation

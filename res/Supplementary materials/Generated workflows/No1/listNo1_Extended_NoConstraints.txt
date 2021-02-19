@@ -1,0 +1,100 @@
+MZmine -> Mascot Server -> rt
+unfinnigan -> Comet -> rt
+CompassXport -> Comet -> rt
+T2D converter -> Comet -> rt
+MassWolf -> Comet -> rt
+msConvert -> Comet -> rt
+ReAdW -> Comet -> rt
+mzBruker -> Comet -> rt
+DeconTools -> Mascot Server -> rt
+PEAKS De Novo -> PeptideProphet -> rt
+msConvert -> Novor -> rt
+msConvert -> MassWiz -> rt
+DeconTools -> raw2mzDB -> Mascot Server -> rt
+msConvert -> DeconTools -> Mascot Server -> rt
+MZmine -> raw2mzDB -> Mascot Server -> rt
+MZmine -> msConvert -> Mascot Server -> rt
+msConvert -> MassWolf -> Comet -> rt
+msConvert -> CompassXport -> Comet -> rt
+MassWolf -> CompassXport -> Comet -> rt
+CompassXport -> CompassXport -> Comet -> rt
+ReAdW -> CompassXport -> Comet -> rt
+T2D converter -> CompassXport -> Comet -> rt
+mzBruker -> CompassXport -> Comet -> rt
+unfinnigan -> CompassXport -> Comet -> rt
+RawTools -> msConvert -> Comet -> rt
+CompassXport -> MassWolf -> Comet -> rt
+MassWolf -> MassWolf -> Comet -> rt
+T2D converter -> MassWolf -> Comet -> rt
+mzBruker -> MassWolf -> Comet -> rt
+unfinnigan -> MassWolf -> Comet -> rt
+ReAdW -> MassWolf -> Comet -> rt
+MassHunter File Reader -> msConvert -> Comet -> rt
+msConvert -> msConvert -> Comet -> rt
+T2D converter -> msConvert -> Comet -> rt
+MassWolf -> msConvert -> Comet -> rt
+CompassXport -> msConvert -> Comet -> rt
+mzBruker -> msConvert -> Comet -> rt
+unfinnigan -> msConvert -> Comet -> rt
+ReAdW -> msConvert -> Comet -> rt
+CompassXport -> mzBruker -> Comet -> rt
+msConvert -> T2D converter -> Comet -> rt
+CompassXport -> T2D converter -> Comet -> rt
+MassWolf -> T2D converter -> Comet -> rt
+T2D converter -> T2D converter -> Comet -> rt
+mzBruker -> T2D converter -> Comet -> rt
+unfinnigan -> T2D converter -> Comet -> rt
+ReAdW -> T2D converter -> Comet -> rt
+MassWolf -> mzBruker -> Comet -> rt
+msConvert -> mzBruker -> Comet -> rt
+T2D converter -> mzBruker -> Comet -> rt
+mzBruker -> mzBruker -> Comet -> rt
+unfinnigan -> mzBruker -> Comet -> rt
+ReAdW -> mzBruker -> Comet -> rt
+MassWolf -> recal2 -> Comet -> rt
+msConvert -> unfinnigan -> Comet -> rt
+T2D converter -> recal2 -> Comet -> rt
+msConvert -> ReAdW -> Comet -> rt
+mzBruker -> recal2 -> Comet -> rt
+unfinnigan -> recal2 -> Comet -> rt
+CompassXport -> recal2 -> Comet -> rt
+msConvert -> recal2 -> Comet -> rt
+ReAdW -> recal2 -> Comet -> rt
+MZmine -> unfinnigan -> Mascot Server -> rt
+unfinnigan -> Comet -> PTMProphet -> rt
+CompassXport -> Comet -> PTMProphet -> rt
+MassWolf -> Comet -> PTMProphet -> rt
+msConvert -> Comet -> PTMProphet -> rt
+T2D converter -> Comet -> PTMProphet -> rt
+mzBruker -> Comet -> PTMProphet -> rt
+ReAdW -> Comet -> PTMProphet -> rt
+PEAKS De Novo -> PeptideProphet -> PTMProphet -> rt
+DeconTools -> msConvert -> Mascot Server -> rt
+MZmine -> Mascot Server -> idconvert -> rt
+MassWolf -> Comet -> idconvert -> rt
+PEAKS De Novo -> ProteinProphet -> idconvert -> rt
+DeconTools -> Mascot Server -> idconvert -> rt
+PEAKS De Novo -> PeptideProphet -> idconvert -> rt
+CompassXport -> Comet -> idconvert -> rt
+msConvert -> Comet -> idconvert -> rt
+T2D converter -> Comet -> idconvert -> rt
+mzBruker -> Comet -> idconvert -> rt
+unfinnigan -> Comet -> idconvert -> rt
+ReAdW -> Comet -> idconvert -> rt
+PEAKS De Novo -> PeptideProphet -> PeptideProphet -> rt
+unfinnigan -> Comet -> PeptideProphet -> rt
+MZmine -> MS-Fit -> PeptideProphet -> rt
+CompassXport -> PEAKS De Novo -> PeptideProphet -> rt
+msConvert -> PEAKS De Novo -> PeptideProphet -> rt
+MZmine -> ProFound -> PeptideProphet -> rt
+DeconTools -> MS-Fit -> PeptideProphet -> rt
+RawTools -> PEAKS De Novo -> PeptideProphet -> rt
+DeconTools -> ProFound -> PeptideProphet -> rt
+MassHunter File Reader -> PEAKS De Novo -> PeptideProphet -> rt
+PEAKS De Novo -> ProteinProphet -> PeptideProphet -> rt
+MassWolf -> PEAKS De Novo -> PeptideProphet -> rt
+T2D converter -> PEAKS De Novo -> PeptideProphet -> rt
+mzBruker -> PEAKS De Novo -> PeptideProphet -> rt
+unfinnigan -> PEAKS De Novo -> PeptideProphet -> rt
+ReAdW -> PEAKS De Novo -> PeptideProphet -> rt
+CompassXport -> Comet -> PeptideProphet -> rt

@@ -1,0 +1,100 @@
+msConvert -> MassWiz -> rt
+ThermoRawFileParser -> MassWiz -> rt
+msConvert -> Comet -> PeptideProphet -> rt
+MassWolf -> Comet -> PeptideProphet -> rt
+ThermoRawFileParser -> Comet -> PeptideProphet -> rt
+T2D converter -> Comet -> PeptideProphet -> rt
+mzBruker -> Comet -> PeptideProphet -> rt
+unfinnigan -> Comet -> PeptideProphet -> rt
+CompassXport -> Comet -> PeptideProphet -> rt
+ReAdW -> Comet -> PeptideProphet -> rt
+CompassXport -> DTA to MGF File Converter -> MassWiz -> rt
+MassWolf -> mzXML2Search -> MassWiz -> rt
+CompassXport -> msConvert -> MassWiz -> rt
+mzBruker -> mzXML2Search -> MassWiz -> rt
+unfinnigan -> mzXML2Search -> MassWiz -> rt
+CompassXport -> mzXML2Search -> MassWiz -> rt
+T2D converter -> mzXML2Search -> MassWiz -> rt
+msConvert -> mzXML2Search -> MassWiz -> rt
+ReAdW -> mzXML2Search -> MassWiz -> rt
+ThermoRawFileParser -> mzXML2Search -> MassWiz -> rt
+CompassXport -> mz2mgf -> MassWiz -> rt
+msConvert -> msConvert -> MassWiz -> rt
+RawTools -> msConvert -> MassWiz -> rt
+RawTools -> DTA to MGF File Converter -> MassWiz -> rt
+MassHunter File Reader -> DTA to MGF File Converter -> MassWiz -> rt
+msConvert -> DTA to MGF File Converter -> MassWiz -> rt
+msConvert -> ThermoRawFileParser -> MassWiz -> rt
+ThermoRawFileParser -> msConvert -> MassWiz -> rt
+ReAdW -> msConvert -> MassWiz -> rt
+mzBruker -> msConvert -> MassWiz -> rt
+unfinnigan -> msConvert -> MassWiz -> rt
+MassWolf -> msConvert -> MassWiz -> rt
+T2D converter -> msConvert -> MassWiz -> rt
+MassHunter File Reader -> msConvert -> MassWiz -> rt
+ThermoRawFileParser -> collect_mgf -> MassWiz -> rt
+msConvert -> collect_mgf -> MassWiz -> rt
+T2D converter -> DIA-Umpire -> MassWiz -> rt
+msConvert -> Y.A.D.A. -> MassWiz -> rt
+ThermoRawFileParser -> Y.A.D.A. -> MassWiz -> rt
+mzBruker -> DIA-Umpire -> MassWiz -> rt
+unfinnigan -> DIA-Umpire -> MassWiz -> rt
+CompassXport -> DIA-Umpire -> MassWiz -> rt
+MassWolf -> DIA-Umpire -> MassWiz -> rt
+msConvert -> DIA-Umpire -> MassWiz -> rt
+ReAdW -> DIA-Umpire -> MassWiz -> rt
+ThermoRawFileParser -> DeconTools -> mMass -> PeptideProphet -> rt
+MassWolf -> Comet -> PeptideProphet -> PTMProphet -> rt
+msConvert -> DeconTools -> mMass -> PeptideProphet -> rt
+CompassXport -> CompassXport -> mz2mgf -> MassWiz -> rt
+T2D converter -> Comet -> PeptideProphet -> PTMProphet -> rt
+mzBruker -> Comet -> PeptideProphet -> PTMProphet -> rt
+unfinnigan -> Comet -> PeptideProphet -> PTMProphet -> rt
+CompassXport -> Comet -> PeptideProphet -> PTMProphet -> rt
+msConvert -> Comet -> PeptideProphet -> PTMProphet -> rt
+ReAdW -> Comet -> PeptideProphet -> PTMProphet -> rt
+ThermoRawFileParser -> Comet -> PeptideProphet -> PTMProphet -> rt
+msConvert -> Comet -> PeptideProphet -> idconvert -> rt
+unfinnigan -> Comet -> PeptideProphet -> idconvert -> rt
+mzBruker -> Comet -> PeptideProphet -> idconvert -> rt
+CompassXport -> Comet -> PeptideProphet -> idconvert -> rt
+MassWolf -> Comet -> PeptideProphet -> idconvert -> rt
+T2D converter -> Comet -> PeptideProphet -> idconvert -> rt
+ReAdW -> Comet -> PeptideProphet -> idconvert -> rt
+ThermoRawFileParser -> Comet -> PeptideProphet -> idconvert -> rt
+unfinnigan -> DeconTools -> mMass -> PeptideProphet -> rt
+MassWolf -> DeconTools -> mMass -> PeptideProphet -> rt
+CompassXport -> mz2mgf -> msConvert -> MassWiz -> rt
+CompassXport -> DeconTools -> mMass -> PeptideProphet -> rt
+ThermoRawFileParser -> Comet -> idconvert -> PeptideProphet -> rt
+CompassXport -> mzBruker -> Comet -> PeptideProphet -> rt
+ThermoRawFileParser -> mzBruker -> Comet -> PeptideProphet -> rt
+msConvert -> mzBruker -> Comet -> PeptideProphet -> rt
+T2D converter -> mzBruker -> Comet -> PeptideProphet -> rt
+mzBruker -> mzBruker -> Comet -> PeptideProphet -> rt
+unfinnigan -> mzBruker -> Comet -> PeptideProphet -> rt
+MassWolf -> mzBruker -> Comet -> PeptideProphet -> rt
+ReAdW -> mzBruker -> Comet -> PeptideProphet -> rt
+msConvert -> unfinnigan -> Comet -> PeptideProphet -> rt
+CompassXport -> msConvert -> Comet -> PeptideProphet -> rt
+msConvert -> CompassXport -> Comet -> PeptideProphet -> rt
+ThermoRawFileParser -> CompassXport -> Comet -> PeptideProphet -> rt
+mzBruker -> CompassXport -> Comet -> PeptideProphet -> rt
+unfinnigan -> CompassXport -> Comet -> PeptideProphet -> rt
+CompassXport -> CompassXport -> Comet -> PeptideProphet -> rt
+MassWolf -> CompassXport -> Comet -> PeptideProphet -> rt
+T2D converter -> CompassXport -> Comet -> PeptideProphet -> rt
+ReAdW -> CompassXport -> Comet -> PeptideProphet -> rt
+msConvert -> MassWolf -> Comet -> PeptideProphet -> rt
+ThermoRawFileParser -> MassWolf -> Comet -> PeptideProphet -> rt
+mzBruker -> MassWolf -> Comet -> PeptideProphet -> rt
+unfinnigan -> MassWolf -> Comet -> PeptideProphet -> rt
+CompassXport -> MassWolf -> Comet -> PeptideProphet -> rt
+MassWolf -> MassWolf -> Comet -> PeptideProphet -> rt
+T2D converter -> MassWolf -> Comet -> PeptideProphet -> rt
+ReAdW -> MassWolf -> Comet -> PeptideProphet -> rt
+CompassXport -> T2D converter -> Comet -> PeptideProphet -> rt
+msConvert -> T2D converter -> Comet -> PeptideProphet -> rt
+ThermoRawFileParser -> T2D converter -> Comet -> PeptideProphet -> rt
+mzBruker -> T2D converter -> Comet -> PeptideProphet -> rt
+unfinnigan -> T2D converter -> Comet -> PeptideProphet -> rt

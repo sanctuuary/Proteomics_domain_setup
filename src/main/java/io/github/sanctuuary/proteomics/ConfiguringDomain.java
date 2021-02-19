@@ -14,9 +14,9 @@ public class ConfiguringDomain {
 	public static void setupDomain() throws IOException {
 		getLimitedToolSet(Benchmarking.TOOLS_DIR + "toolList.json");
 //		System.out.println();
-		getToolSetFromDomain("proteomics", "Extended");
+		setupToolSetFromExistingDomain("proteomics", "Extended");
 		System.out.println();
-		getToolSetFromDomain("", "FullBioTools");
+		setupToolSetFromExistingDomain("", "FullBioTools");
 	}
 	
 	private static void getLimitedToolSet(String listFilePath) throws IOException {

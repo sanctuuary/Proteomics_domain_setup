@@ -1,0 +1,100 @@
+msConvert -> MassWiz -> rt
+msConvert -> collect_mgf -> MassWiz -> rt
+T2D converter -> Comet -> PeptideProphet -> rt
+MassWolf -> Comet -> PeptideProphet -> rt
+T2D converter -> mzXML2Search -> MassWiz -> rt
+mzBruker -> mzXML2Search -> MassWiz -> rt
+msConvert -> msConvert -> MassWiz -> rt
+unfinnigan -> Comet -> PeptideProphet -> rt
+unfinnigan -> mzXML2Search -> MassWiz -> rt
+CompassXport -> Comet -> PeptideProphet -> rt
+msConvert -> Comet -> PeptideProphet -> rt
+ReAdW -> Comet -> PeptideProphet -> rt
+mzBruker -> Comet -> PeptideProphet -> rt
+RawTools -> DTA to MGF File Converter -> MassWiz -> rt
+CompassXport -> mzXML2Search -> MassWiz -> rt
+MassWolf -> mzXML2Search -> MassWiz -> rt
+msConvert -> mzXML2Search -> MassWiz -> rt
+ReAdW -> mzXML2Search -> MassWiz -> rt
+MassHunter File Reader -> DTA to MGF File Converter -> MassWiz -> rt
+msConvert -> DTA to MGF File Converter -> MassWiz -> rt
+CompassXport -> DTA to MGF File Converter -> MassWiz -> rt
+CompassXport -> mz2mgf -> MassWiz -> rt
+CompassXport -> msConvert -> MassWiz -> rt
+RawTools -> msConvert -> MassWiz -> rt
+MassHunter File Reader -> msConvert -> MassWiz -> rt
+unfinnigan -> msConvert -> MassWiz -> rt
+MassWolf -> msConvert -> MassWiz -> rt
+mzBruker -> msConvert -> MassWiz -> rt
+T2D converter -> msConvert -> MassWiz -> rt
+ReAdW -> msConvert -> MassWiz -> rt
+MassWolf -> DIA-Umpire -> MassWiz -> rt
+msConvert -> Y.A.D.A. -> MassWiz -> rt
+T2D converter -> DIA-Umpire -> MassWiz -> rt
+mzBruker -> DIA-Umpire -> MassWiz -> rt
+unfinnigan -> DIA-Umpire -> MassWiz -> rt
+CompassXport -> DIA-Umpire -> MassWiz -> rt
+msConvert -> DIA-Umpire -> MassWiz -> rt
+ReAdW -> DIA-Umpire -> MassWiz -> rt
+DeconTools -> msConvert -> mMass -> PeptideProphet -> rt
+MassWolf -> DeconTools -> mMass -> PeptideProphet -> rt
+CompassXport -> DeconTools -> mMass -> PeptideProphet -> rt
+CompassXport -> Comet -> PeptideProphet -> idconvert -> rt
+MassWolf -> Comet -> PeptideProphet -> idconvert -> rt
+T2D converter -> Comet -> PeptideProphet -> PTMProphet -> rt
+CompassXport -> Comet -> PeptideProphet -> PTMProphet -> rt
+MassWolf -> Comet -> PeptideProphet -> PTMProphet -> rt
+msConvert -> Comet -> PeptideProphet -> PTMProphet -> rt
+ReAdW -> Comet -> PeptideProphet -> PTMProphet -> rt
+mzBruker -> Comet -> PeptideProphet -> PTMProphet -> rt
+unfinnigan -> Comet -> PeptideProphet -> PTMProphet -> rt
+msConvert -> Comet -> PeptideProphet -> idconvert -> rt
+mzBruker -> Comet -> PeptideProphet -> idconvert -> rt
+T2D converter -> Comet -> PeptideProphet -> idconvert -> rt
+unfinnigan -> Comet -> PeptideProphet -> idconvert -> rt
+ReAdW -> Comet -> PeptideProphet -> idconvert -> rt
+msConvert -> DeconTools -> mMass -> PeptideProphet -> rt
+MZmine -> msConvert -> mMass -> PeptideProphet -> rt
+CompassXport -> Comet -> MFPaQ -> PeptideProphet -> rt
+T2D converter -> Comet -> PeptideProphet -> PeptideProphet -> rt
+MassWolf -> Comet -> MFPaQ -> PeptideProphet -> rt
+msConvert -> Comet -> MFPaQ -> PeptideProphet -> rt
+T2D converter -> Comet -> MFPaQ -> PeptideProphet -> rt
+mzBruker -> Comet -> MFPaQ -> PeptideProphet -> rt
+unfinnigan -> Comet -> MFPaQ -> PeptideProphet -> rt
+ReAdW -> Comet -> MFPaQ -> PeptideProphet -> rt
+MassWolf -> Comet -> PeptideProphet -> PeptideProphet -> rt
+CompassXport -> Comet -> PeptideProphet -> PeptideProphet -> rt
+msConvert -> Comet -> PeptideProphet -> PeptideProphet -> rt
+mzBruker -> Comet -> PeptideProphet -> PeptideProphet -> rt
+unfinnigan -> Comet -> PeptideProphet -> PeptideProphet -> rt
+ReAdW -> Comet -> PeptideProphet -> PeptideProphet -> rt
+ReAdW -> DeconTools -> mMass -> PeptideProphet -> rt
+msConvert -> MZmine -> mMass -> PeptideProphet -> rt
+MZmine -> MassWolf -> mMass -> PeptideProphet -> rt
+CompassXport -> MS-Spectre -> mMass -> PeptideProphet -> rt
+MassWolf -> MS-Spectre -> mMass -> PeptideProphet -> rt
+msConvert -> MS-Spectre -> mMass -> PeptideProphet -> rt
+mzBruker -> MS-Spectre -> mMass -> PeptideProphet -> rt
+T2D converter -> MS-Spectre -> mMass -> PeptideProphet -> rt
+unfinnigan -> MS-Spectre -> mMass -> PeptideProphet -> rt
+ReAdW -> MS-Spectre -> mMass -> PeptideProphet -> rt
+DeconTools -> MassWolf -> mMass -> PeptideProphet -> rt
+MassWolf -> MZmine -> mMass -> PeptideProphet -> rt
+MZmine -> CompassXport -> mMass -> PeptideProphet -> rt
+DeconTools -> CompassXport -> mMass -> PeptideProphet -> rt
+MZmine -> unfinnigan -> mMass -> PeptideProphet -> rt
+MZmine -> ReAdW -> mMass -> PeptideProphet -> rt
+MZmine -> T2D converter -> mMass -> PeptideProphet -> rt
+DeconTools -> T2D converter -> mMass -> PeptideProphet -> rt
+MZmine -> mzBruker -> mMass -> PeptideProphet -> rt
+DeconTools -> mzBruker -> mMass -> PeptideProphet -> rt
+DeconTools -> unfinnigan -> mMass -> PeptideProphet -> rt
+DeconTools -> ReAdW -> mMass -> PeptideProphet -> rt
+mzBruker -> DeconTools -> mMass -> PeptideProphet -> rt
+T2D converter -> DeconTools -> mMass -> PeptideProphet -> rt
+CompassXport -> MZmine -> mMass -> PeptideProphet -> rt
+unfinnigan -> DeconTools -> mMass -> PeptideProphet -> rt
+unfinnigan -> MZmine -> mMass -> PeptideProphet -> rt
+T2D converter -> MZmine -> mMass -> PeptideProphet -> rt
+mzBruker -> MZmine -> mMass -> PeptideProphet -> rt

@@ -1,0 +1,100 @@
+T2D converter -> Comet -> PeptideProphet -> PTMProphet
+MassWolf -> Comet -> PeptideProphet -> PTMProphet
+CompassXport -> Comet -> PeptideProphet -> PTMProphet
+msConvert -> Comet -> PeptideProphet -> PTMProphet
+mzBruker -> Comet -> PeptideProphet -> PTMProphet
+ReAdW -> Comet -> PeptideProphet -> PTMProphet
+unfinnigan -> Comet -> PeptideProphet -> PTMProphet
+msConvert -> Comet -> PeptideProphet -> PTMProphet -> idconvert
+CompassXport -> Comet -> PeptideProphet -> PTMProphet -> idconvert
+MassWolf -> Comet -> PeptideProphet -> PTMProphet -> ProteinProphet
+CompassXport -> Comet -> PeptideProphet -> PTMProphet -> MFPaQ
+T2D converter -> Comet -> PeptideProphet -> PTMProphet -> MFPaQ
+MassWolf -> Comet -> PeptideProphet -> PTMProphet -> MFPaQ
+msConvert -> Comet -> PeptideProphet -> PTMProphet -> MFPaQ
+ReAdW -> Comet -> PeptideProphet -> PTMProphet -> MFPaQ
+mzBruker -> Comet -> PeptideProphet -> PTMProphet -> MFPaQ
+unfinnigan -> Comet -> PeptideProphet -> PTMProphet -> MFPaQ
+CompassXport -> Comet -> PeptideProphet -> PTMProphet -> ProteinProphet
+msConvert -> Comet -> PeptideProphet -> PTMProphet -> ProteinProphet
+mzBruker -> Comet -> PeptideProphet -> PTMProphet -> ProteinProphet
+T2D converter -> Comet -> PeptideProphet -> PTMProphet -> ProteinProphet
+unfinnigan -> Comet -> PeptideProphet -> PTMProphet -> ProteinProphet
+ReAdW -> Comet -> PeptideProphet -> PTMProphet -> ProteinProphet
+MassWolf -> Comet -> PeptideProphet -> PTMProphet -> idconvert
+mzBruker -> Comet -> PeptideProphet -> PTMProphet -> idconvert
+T2D converter -> Comet -> PeptideProphet -> PTMProphet -> idconvert
+unfinnigan -> Comet -> PeptideProphet -> PTMProphet -> idconvert
+ReAdW -> Comet -> PeptideProphet -> PTMProphet -> idconvert
+msConvert -> msConvert -> Comet -> PeptideProphet -> PTMProphet
+MZmine -> unfinnigan -> mMass -> PeptideProphet -> PTMProphet
+MZmine -> msConvert -> mMass -> PeptideProphet -> PTMProphet
+DeconTools -> msConvert -> mMass -> PeptideProphet -> PTMProphet
+msConvert -> MZmine -> mMass -> PeptideProphet -> PTMProphet
+msConvert -> DeconTools -> mMass -> PeptideProphet -> PTMProphet
+MassWolf -> MS-Spectre -> mMass -> PeptideProphet -> PTMProphet
+CompassXport -> MS-Spectre -> mMass -> PeptideProphet -> PTMProphet
+msConvert -> MS-Spectre -> mMass -> PeptideProphet -> PTMProphet
+T2D converter -> MS-Spectre -> mMass -> PeptideProphet -> PTMProphet
+mzBruker -> MS-Spectre -> mMass -> PeptideProphet -> PTMProphet
+unfinnigan -> MS-Spectre -> mMass -> PeptideProphet -> PTMProphet
+ReAdW -> MS-Spectre -> mMass -> PeptideProphet -> PTMProphet
+DeconTools -> MassWolf -> mMass -> PeptideProphet -> PTMProphet
+T2D converter -> MZmine -> mMass -> PeptideProphet -> PTMProphet
+DeconTools -> CompassXport -> mMass -> PeptideProphet -> PTMProphet
+MZmine -> CompassXport -> mMass -> PeptideProphet -> PTMProphet
+MZmine -> MassWolf -> mMass -> PeptideProphet -> PTMProphet
+MZmine -> ReAdW -> mMass -> PeptideProphet -> PTMProphet
+DeconTools -> T2D converter -> mMass -> PeptideProphet -> PTMProphet
+DeconTools -> unfinnigan -> mMass -> PeptideProphet -> PTMProphet
+MZmine -> T2D converter -> mMass -> PeptideProphet -> PTMProphet
+MZmine -> mzBruker -> mMass -> PeptideProphet -> PTMProphet
+DeconTools -> mzBruker -> mMass -> PeptideProphet -> PTMProphet
+DeconTools -> ReAdW -> mMass -> PeptideProphet -> PTMProphet
+MassWolf -> DeconTools -> mMass -> PeptideProphet -> PTMProphet
+MassWolf -> MZmine -> mMass -> PeptideProphet -> PTMProphet
+CompassXport -> DeconTools -> mMass -> PeptideProphet -> PTMProphet
+CompassXport -> MZmine -> mMass -> PeptideProphet -> PTMProphet
+ReAdW -> DeconTools -> mMass -> PeptideProphet -> PTMProphet
+T2D converter -> DeconTools -> mMass -> PeptideProphet -> PTMProphet
+mzBruker -> DeconTools -> mMass -> PeptideProphet -> PTMProphet
+unfinnigan -> DeconTools -> mMass -> PeptideProphet -> PTMProphet
+unfinnigan -> MZmine -> mMass -> PeptideProphet -> PTMProphet
+mzBruker -> MZmine -> mMass -> PeptideProphet -> PTMProphet
+ReAdW -> MZmine -> mMass -> PeptideProphet -> PTMProphet
+CompassXport -> MassWolf -> Comet -> PeptideProphet -> PTMProphet
+RawTools -> msConvert -> Comet -> PeptideProphet -> PTMProphet
+msConvert -> CompassXport -> Comet -> PeptideProphet -> PTMProphet
+CompassXport -> CompassXport -> Comet -> PeptideProphet -> PTMProphet
+T2D converter -> CompassXport -> Comet -> PeptideProphet -> PTMProphet
+MassWolf -> CompassXport -> Comet -> PeptideProphet -> PTMProphet
+mzBruker -> CompassXport -> Comet -> PeptideProphet -> PTMProphet
+unfinnigan -> CompassXport -> Comet -> PeptideProphet -> PTMProphet
+ReAdW -> CompassXport -> Comet -> PeptideProphet -> PTMProphet
+MassHunter File Reader -> msConvert -> Comet -> PeptideProphet -> PTMProphet
+msConvert -> MassWolf -> Comet -> PeptideProphet -> PTMProphet
+MassWolf -> MassWolf -> Comet -> PeptideProphet -> PTMProphet
+mzBruker -> MassWolf -> Comet -> PeptideProphet -> PTMProphet
+T2D converter -> MassWolf -> Comet -> PeptideProphet -> PTMProphet
+unfinnigan -> MassWolf -> Comet -> PeptideProphet -> PTMProphet
+ReAdW -> MassWolf -> Comet -> PeptideProphet -> PTMProphet
+CompassXport -> msConvert -> Comet -> PeptideProphet -> PTMProphet
+MassWolf -> msConvert -> Comet -> PeptideProphet -> PTMProphet
+T2D converter -> msConvert -> Comet -> PeptideProphet -> PTMProphet
+mzBruker -> msConvert -> Comet -> PeptideProphet -> PTMProphet
+unfinnigan -> msConvert -> Comet -> PeptideProphet -> PTMProphet
+ReAdW -> msConvert -> Comet -> PeptideProphet -> PTMProphet
+MassWolf -> mzBruker -> Comet -> PeptideProphet -> PTMProphet
+msConvert -> ReAdW -> Comet -> PeptideProphet -> PTMProphet
+msConvert -> T2D converter -> Comet -> PeptideProphet -> PTMProphet
+CompassXport -> T2D converter -> Comet -> PeptideProphet -> PTMProphet
+MassWolf -> T2D converter -> Comet -> PeptideProphet -> PTMProphet
+T2D converter -> T2D converter -> Comet -> PeptideProphet -> PTMProphet
+mzBruker -> T2D converter -> Comet -> PeptideProphet -> PTMProphet
+unfinnigan -> T2D converter -> Comet -> PeptideProphet -> PTMProphet
+ReAdW -> T2D converter -> Comet -> PeptideProphet -> PTMProphet
+msConvert -> mzBruker -> Comet -> PeptideProphet -> PTMProphet
+CompassXport -> mzBruker -> Comet -> PeptideProphet -> PTMProphet
+T2D converter -> mzBruker -> Comet -> PeptideProphet -> PTMProphet
+mzBruker -> mzBruker -> Comet -> PeptideProphet -> PTMProphet
+unfinnigan -> mzBruker -> Comet -> PeptideProphet -> PTMProphet
